@@ -7,3 +7,17 @@ Proyecto Final de TUP FRSR - CodeBaires
 ![image](https://user-images.githubusercontent.com/77170481/235795845-49895c13-c373-49ed-8a60-b71fafe951cf.png)
 
 
+# Roles en el equipo
+
+Se detalla los Scrum Master asignados para cada Sprint
+
+| ROL  | INTEGRANTE |  
+| ------------- | ------------- | 
+| :computer: Scrum Master - Dev  | Rosalia Lotierzo | 
+| :computer: QA - Dev  | Yamila Carlucci | 
+| :computer: Dev  | Emmanuel Toro |
+| :computer: Dev  | Marina Falcón |
+| :computer: Dev  | Maia Strusiat |
+| :computer: Dev  | Lorena Rodríguez |
+| :computer: Dev  | Deisy Ortega  |
+| :computer: Dev  | Matías Quispe |

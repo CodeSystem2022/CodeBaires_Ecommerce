@@ -9,8 +9,6 @@ Proyecto Final de TUP FRSR - CodeBaires
 
 # Roles en el equipo
 
-Se detalla los Scrum Master asignados para cada Sprint
-
 | ROL  | INTEGRANTE |  
 | ------------- | ------------- | 
 | :computer: Scrum Master - Dev  | Rosalia Lotierzo | 

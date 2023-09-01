@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBaires Techno Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- Se agrega un wrapper o envoltorio, va a contener todo lo que pertenece al aside y el main -->
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">CodeBaires Techno Store</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">CodeBaires Techno Store</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-bag-fill"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="notebooks" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Notebooks</button>
+                    </li>
+                    <li>
+                        <button id="procesadores" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Procesadores</button>
+                    </li>
+                    <li>
+                        <button id="mothers" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Mothers</button>
+                    </li>
+                    <li>
+                        <button id="placas_video" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Placas de video</button>
+                    </li>
+                    <li>
+                        <button id="memorias_ram" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Memorias RAM</button>
+                    </li>
+                    <li>
+                        <button id="almacenamiento" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Almacenamiento</button>
+                    </li>
+                    <li>
+                        <button id="fuentes" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Fuentes</button>
+                    </li>
+                    <li>
+                        <button id="gabinetes" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Gabinetes</button>
+                    </li>
+                    <li>
+                        <button id="monitores" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Monitores</button>
+                    </li>
+                    <li>
+                        <button id="perifericos" class="boton-menu boton-categoria"><i class="bi bi-bag"></i> Periféricos</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 CodeBaires</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\notebooks\note_01.png" alt="note_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Notebook Gamer Asus TUF FA506 FHD 15.6"<br>Ryzen 5 4600Hz</h3>
+                        <p class="producto-precio">$ 805.999</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\notebooks\note_02.png" alt="note_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Notebook Lenovo ThinkPad E14 FHD 14"<br>Core I7 1165G7</h3>
+                        <p class="producto-precio">$ 999.450</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\notebooks\note_03.png" alt="note_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Notebook ASUS X515EA 15.6"<br>Core I3 1115G4</h3>
+                        <p class="producto-precio">$ 380.990</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\notebooks\note_04.png" alt="note_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Notebook Gamer ASUS TUF FX506 FHD 15.6"<br>Core i5 10300H</h3>
+                        <p class="producto-precio">$ 789.999</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\notebooks\note_05.png" alt="note_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Notebook Asus Vivobook M3500 OLED FHD 15.6"<br>Ryzen 7 5800H</h3>
+                        <p class="producto-precio">$ 749.999</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\notebooks\note_06.png" alt="note_06">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Notebook Lenovo Legion 5 15ACH6H 15.6"<br>Ryzen 5 5600H</h3>
+                        <p class="producto-precio">$ 1.135.999</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\notebooks\note_07.png" alt="note_07">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Notebook Gamer Thunderobot 911 AIR 15.6"<br> Core I7 12700H</h3>
+                        <p class="producto-precio">$ 949.990</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\procesadores\proce_01.png" alt="proce_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Procesador AMD RYZEN 3 3200G 4.0GHz Turbo +<br> Radeon Vega 8 AM4</h3>
+                        <p class="producto-precio">$ 84.900</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\procesadores\proce_02.png" alt="proce_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Procesador AMD RYZEN 5 3600 4.2GHz Turbo AM4<br>Wraith Stealth Cooler</h3>
+                        <p class="producto-precio">$ 123.500</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\procesadores\proce_03.png" alt="proce_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4<br>No incluye Cooler</h3>
+                        <p class="producto-precio">$ 330.200</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\procesadores\proce_04.png" alt="proce_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Procesador Intel Core i3 10100F 4.3GHz Turbo<br>Socket 1200 Comet Lake</h3>
+                        <p class="producto-precio">$ 61.950</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\procesadores\proce_05.png" alt="proce_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Procesador Intel Core i5 10400 4.3GHz Turbo<br>Socket 1200 Comet Lake</h3>
+                        <p class="producto-precio">$ 146.500</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\procesadores\proce_06.png" alt="proce_06">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Procesador Intel Core i7 11700KF 5.0GHz Turbo<br>Socket 1200 Rocket Lake</h3>
+                        <p class="producto-precio">$ 325.300</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\mothers\mother_01.png" alt="mother_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Mother MSI A320M-A PRO<br>AM4</h3>
+                        <p class="producto-precio">$ 83.600</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\mothers\mother_02.png" alt="mother_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Mother Asrock B450M/AC<br>AM4 R2.0 WIFI</h3>
+                        <p class="producto-precio">$ 87.500</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\mothers\mother_03.png" alt="mother_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Mother Gigabyte A520M<br>V2 DDR4 AM4</h3>
+                        <p class="producto-precio">$ 87.000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\mothers\mother_04.png" alt="mother_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Mother ASUS PRIME<br>A520M-K DDR4 AM4</h3>
+                        <p class="producto-precio">$ 76.910</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\mothers\mother_05.png" alt="mother_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Mother ASUS ROG<br>CROSSHAIR X670E</h3>
+                        <p class="producto-precio">$ 700.150</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\mothers\mother_06.png" alt="mother_06">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Mother ASUS TUF GAMING<br>CROSSHAIR X670E</h3>
+                        <p class="producto-precio">$ 159.000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\video\video_01.png" alt="video_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Placa ASUS Phoenix<br> GeForce GTX 1630</h3>
+                        <p class="producto-precio">$ 212.450</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\video\video_02.png" alt="video_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Placa ASUS GeForce<br>GTX 1660 SUPER TUF</h3>
+                        <p class="producto-precio">$ 335.550</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\video\video_03.png" alt="video_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Placa ASUS GeForce<br>RTX 3070 ROG STRIX</h3>
+                        <p class="producto-precio">$ 500.400</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\video\video_04.png" alt="video_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Placa Asrock Radeon<br>RX 6500 PHANTOM</h3>
+                        <p class="producto-precio">$ 228.650</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\video\video_05.png" alt="video_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Placa XFX Radeon<br>RX 6650 SPEEDSTER QICK</h3>
+                        <p class="producto-precio">$ 326.900</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\video\video_06.png" alt="video_06">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Placa XFX Radeon<br>RX 6650 SPEEDSTER MERC</h3>
+                        <p class="producto-precio">$ 354.500</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\memorias\ram_01.png" alt="ram_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">RAM Adata DDR4 16GB<br>4133MHz XPG Spectrix</h3>
+                        <p class="producto-precio">$ 65.030</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\memorias\ram_02.png" alt="ram_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">RAM Corsair DDR4 8GB<br>2666Mhz Vengeance LPX</h3>
+                        <p class="producto-precio">$ 24.340</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\memorias\ram_03.png" alt="ram_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">RAM GeiL DDR4 16GB<br>3000MHz Orion Red</h3>
+                        <p class="producto-precio">$ 60.000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\memorias\ram_04.png" alt="ram_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">RAM Patriot Viper DDR4<br>8GB 3600MHz Steel</h3>
+                        <p class="producto-precio">$ 33.100</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\memorias\ram_05.png" alt="ram_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">RAM Kingston DDR4 8GB<br>3200MHz Fury Beast</h3>
+                        <p class="producto-precio">$ 25.400</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\memorias\ram_06.png" alt="ram_06">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">RAM Team DDR4 8GB<br>3200MHz T-Force Vulcan</h3>
+                        <p class="producto-precio">$ 24.899</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\almacenamiento\disco_01.png" alt="disco_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Disco Rígido WD 1TB<br>BLUE 64MB SATA 6.0GB/s</h3>
+                        <p class="producto-precio">$ 45.650</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\almacenamiento\disco_02.png" alt="disco_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Disco Rígido Seagate 1TB<br>Barracuda 64MB SATA</h3>
+                        <p class="producto-precio">$ 45.650</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\almacenamiento\disco_03.png" alt="disco_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Disco Rigido WD 14TB<br>Purple 7.2K RPM 512MB</h3>
+                        <p class="producto-precio">$ 236.540</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\almacenamiento\disco_04.png" alt="disco_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Disco Sólido SSD M.2<br>1TB XPG Spectrix S40G</h3>
+                        <p class="producto-precio">$ 68.950</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\almacenamiento\disco_05.png" alt="disco_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Disco Sólido SSD Kingston<br>240GB A400 500MB/s</h3>
+                        <p class="producto-precio">$ 16.610</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\almacenamiento\disco_06.png" alt="disco_06">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Disco Sólido SSD WD<br>480GB GREEN SATA</h3>
+                        <p class="producto-precio">$ 24.999</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\gabinetes\gabinete_01.png" alt="gabinete_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Gabinete Deepcool<br>MATREXX 70 ADD-RGB</h3>
+                        <p class="producto-precio">$ 85.350</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\gabinetes\gabinete_02.png" alt="gabinete_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Gabinete Be quiet!<br>Window Black Mesh</h3>
+                        <p class="producto-precio">$ 155.800</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\gabinetes\gabinete_03.png" alt="gabinete_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Gabinete Corsair ICUE<br>220T RGB Tempered Glass</h3>
+                        <p class="producto-precio">$ 106.200</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\gabinetes\gabinete_04.png" alt="gabinete_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Gabinete Thermaltake<br>V200 Ryzen Edition</h3>
+                        <p class="producto-precio">$ 42.000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\gabinetes\gabinete_05.png" alt="gabinete_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Gabinete Cougar<br>MX410 Mesh-G RGB</h3>
+                        <p class="producto-precio">$ 54.200</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\gabinetes\gabinete_06.png" alt="gabinete_06">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Gabinete ASUS TUF<br>GT301 ARGB</h3>
+                        <p class="producto-precio">$ 76.100</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\gabinetes\gabinete_07.png" alt="gabinete_07">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Gabinete Aerocool<br>MECHA TG 1</h3>
+                        <p class="producto-precio">$ 46.750</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\fuentes\fuente_01.png" alt="fuente_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Fuente Deepcool 700W<br>DA700 80 Plus Bronze</h3>
+                        <p class="producto-precio">$ 51.850</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\fuentes\fuente_02.png" alt="fuente_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Fuente Be Quiet 850W<br>80 Plus Gold</h3>
+                        <p class="producto-precio">$ 86.800</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\fuentes\fuente_03.png" alt="fuente_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Fuente Gigabyte 650W<br>80 Plus Bronze P650B*</h3>
+                        <p class="producto-precio">$ 57.900</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\fuentes\fuente_04.png" alt="fuente_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Fuente Aerocool Cylon<br>700W 80 Plus Bronze</h3>
+                        <p class="producto-precio">$ 57.100</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\fuentes\fuente_05.png" alt="fuente_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Fuente Thermaltake<br>650W 80 Plus Bronze</h3>
+                        <p class="producto-precio">$ 54.000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\fuentes\fuente_06.png" alt="fuente_07">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Fuente ASUS TUF 650W<br>80 Plus Bronze</h3>
+                        <p class="producto-precio">$ 62.350</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\monitores\monitor_01.png" alt="monitor_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Monitor Gamer Samsung<br>24" Curvo 144Hz Full HD</h3>
+                        <p class="producto-precio">$ 129.999</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\monitores\monitor_02.png" alt="monitor_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Monitor Gamer LG 27"<br>27GL650F 144hz IPS FHD</h3>
+                        <p class="producto-precio">$ 212.650</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\monitores\monitor_03.png" alt="monitor_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Monitor Gamer Cooler<br>Master 27" 165hz Curvo</h3>
+                        <p class="producto-precio">$ 218.700</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\monitores\monitor_04.png" alt="monitor_04">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Monitor ASUS 21.5"<br>Full HD 1ms HDMI VGA</h3>
+                        <p class="producto-precio">$ 88.900</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\monitores\monitor_05.png" alt="monitor_05">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Monitor Gamer Viewsonic<br>24" Curvo 165hz</h3>
+                        <p class="producto-precio">$ 168.650</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\monitores\monitor_06.png" alt="monitor_06">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Monitor Gamer Samsung<br>27" Odyssey Curvo QHD</h3>
+                        <p class="producto-precio">$ 274.300</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\teclado_01.png" alt="teclado_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Teclado Mecanico HyperX<br>Alloy Origins RGB</h3>
+                        <p class="producto-precio">$ 68.280</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\teclado_02.png" alt="teclado_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Teclado Mecanico<br>Redragon K550 RGB</h3>
+                        <p class="producto-precio">$ 50.130</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\teclado_03.png" alt="teclado_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Teclado Logitech G213<br>Prodigy RGB Gaming</h3>
+                        <p class="producto-precio">$ 39.999</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\mouse_01.png" alt="mouse_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Mouse Redragon<br>Gainer M610</h3>
+                        <p class="producto-precio">$ 9.670</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\mouse_02.png" alt="mouse_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Mouse Cougar Surpassion<br>FPS RGB 7200 DPI</h3>
+                        <p class="producto-precio">$ 16.100</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\cam_01.png" alt="cam_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">WebCam Logitech C505<br>HD 720P USB</h3>
+                        <p class="producto-precio">$ 21.999</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\cam_02.png" alt="cam_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">WebCam Logitech C922<br>Pro Full HD 1080p</h3>
+                        <p class="producto-precio">$ 59.000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\auri_01.png" alt="auri_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Auriculares Hyperx Cloud<br>Alpha Black/Red</h3>
+                        <p class="producto-precio">$ 89.000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\auri_02.png" alt="auri_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Auriculares Logitech G935<br>LightSync Inalambrico 7.1</h3>
+                        <p class="producto-precio">$ 97.990</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\auri_03.png" alt="auri_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Auriculares Marvo Skylab<br>G1 HG8960 PRO</h3>
+                        <p class="producto-precio">$ 21.900</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\mic_01.png" alt="mic_01">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Micrófono HyperX<br>QuadCast Streaming</h3>
+                        <p class="producto-precio">$ 90.140</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\mic_02.png" alt="mic_02">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Microfono HyperX<br>SoloCast</h3>
+                        <p class="producto-precio">$ 55.580</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img\productos\perifericos\mic_03.png" alt="mic_03">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Microfono HyperX<br>DuoCast USB</h3>
+                        <p class="producto-precio">$ 67.160</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

@@ -1,16 +1,20 @@
-const contenedorProductos = document.querySelector("contenedor-productos");
+const contenedorProductos = document.querySelector("#contenedor-productos");
+const botonesCategoria = document.querySelectorAll(".boton-categoria");
+const tituloPrincipal = document.querySelector("#titulo-principal");
 
-function cargarProductos(){
+function cargarProductos(productosElegidos){
 
-    cargarProductos.forEach(producto => {
+    contenedorProductos.innerHTML = "";
+
+    productosElegidos.forEach(producto => {
         const div = document.createElement("div");
         div.classList.add("producto");
         div.innerHTML = `
-           <img class="producto-imagen" src="img/productos/notebooks/note_01.png" alt="note_01">
+           <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
            <div class="producto-detalles">
-               <h3 class="producto-titulo">Notebook Gamer Asus TUF FA506 FHD 15.6"<br>Ryzen 5 4600Hz</h3>
-               <p class="producto-precio">$ 805.999</p>
-               <button class="producto-agregar">Agregar</button>
+               <h3 class="producto-titulo">${producto.titulo}</h3>
+               <p class="producto-precio">$${producto.precio}</p>
+               <button class="producto-agregar" id="${producto.id}">Agregar</button>
            </div>
         `;
 
@@ -19,7 +23,25 @@ function cargarProductos(){
     })
 }
 
-cargarProductos();
+cargarProductos(productos);
+
+botonesCategoria.forEach(boton => {
+    boton.addEventListener("click", (e) => {
+        botonesCategoria.forEach(boton => boton.classList.remove("active"));
+        e.currentTarget.classList.add("active");
+
+        if (e.currentTarget.id != "todos") {
+            const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
+            tituloPrincipal.innerText = productoCategoria.categoria.nombre;
+
+            const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
+            cargarProductos(productosBoton);
+        } else {
+            tituloPrincipal.innerText = "Todos los productos";
+            cargarProductos(productos);
+        }
+    })
+})
 
 
 

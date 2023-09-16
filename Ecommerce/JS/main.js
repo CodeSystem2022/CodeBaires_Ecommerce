@@ -40,11 +40,12 @@ botonesCategoria.forEach(boton => {
             tituloPrincipal.innerText = "Todos los productos";
             cargarProductos(productos);
         }
-    })
+    });
+    
 });
 
-
 const productosEnCarrito = [];
+
 
 function agregarAlCarrito(e) {
 
@@ -64,7 +65,3 @@ function agregarAlCarrito(e) {
 
 
 
-
-
-                   
-               

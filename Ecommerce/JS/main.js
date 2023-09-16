@@ -42,8 +42,3 @@ botonesCategoria.forEach(boton => {
         }
     })
 })
-
-
-
-                   
-               

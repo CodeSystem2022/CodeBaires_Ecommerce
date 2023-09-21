@@ -1,0 +1,696 @@
+[
+    {
+        "id": "disco-01",
+        "titulo": "Disco 01",
+        "imagen": "./img/productos/almacenamiento/disco_01.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "disco-02",
+        "titulo": "Disco 02",
+        "imagen": "./img/productos/almacenamiento/disco_02.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "disco-03",
+        "titulo": "Disco 03",
+        "imagen": "./img/productos/almacenamiento/disco_03.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "disco-04",
+        "titulo": "Disco 04",
+        "imagen": "./img/productos/almacenamiento/disco_04.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "disco-05",
+        "titulo": "Disco 05",
+        "imagen": "./img/productos/almacenamiento/disco_05.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "disco-06",
+        "titulo": "Disco 06",
+        "imagen": "./img/productos/almacenamiento/disco_06.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "fuente-01",
+        "titulo": "Fuente 01",
+        "imagen": "./img/productos/fuentes/fuente_01.png",
+        "categoria": {
+            "nombre": "Fuente",
+            "id": "fuente"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "fuente-02",
+        "titulo": "Fuente 02",
+        "imagen": "./img/productos/fuentes/fuente_02.png",
+        "categoria": {
+            "nombre": "Fuente",
+            "id": "fuente"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "fuente-03",
+        "titulo": "Fuente 03",
+        "imagen": "./img/productos/fuentes/fuente_03.png",
+        "categoria": {
+            "nombre": "Fuente",
+            "id": "fuente"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "fuente-04",
+        "titulo": "Fuente 04",
+        "imagen": "./img/productos/fuentes/fuente_04.png",
+        "categoria": {
+            "nombre": "Fuente",
+            "id": "fuente"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "fuente-05",
+        "titulo": "Fuente 05",
+        "imagen": "./img/productos/fuentes/fuente_05.png",
+        "categoria": {
+            "nombre": "Fuente",
+            "id": "fuente"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "fuente-06",
+        "titulo": "Fuente 06",
+        "imagen": "./img/productos/fuentes/fuente_06.png",
+        "categoria": {
+            "nombre": "Fuente",
+            "id": "fuente"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "gabinete-01",
+        "titulo": "Gabinete 01",
+        "imagen": "./img/productos/gabinetes/gabinete_01.png",
+        "categoria": {
+            "nombre": "Gabinetes",
+            "id": "gabinetes"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "gabinete-02",
+        "titulo": "Gabinete 02",
+        "imagen": "./img/productos/gabinetes/gabinete_02.png",
+        "categoria": {
+            "nombre": "Gabinetes",
+            "id": "gabinetes"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "gabinete-03",
+        "titulo": "Gabinete 03",
+        "imagen": "./img/productos/gabinetes/gabinete_03.png",
+        "categoria": {
+            "nombre": "Gabinetes",
+            "id": "gabinetes"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "gabinete-04",
+        "titulo": "Gabinete 04",
+        "imagen": "./img/productos/gabinetes/gabinete_04.png",
+        "categoria": {
+            "nombre": "Gabinetes",
+            "id": "gabinetes"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "gabinete-05",
+        "titulo": "Gabinete 05",
+        "imagen": "./img/productos/gabinetes/gabinete_05.png",
+        "categoria": {
+            "nombre": "Gabinetes",
+            "id": "gabinetes"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "gabinete-06",
+        "titulo": "Gabinete 06",
+        "imagen": "./img/productos/gabinetes/gabinete_06.png",
+        "categoria": {
+            "nombre": "Gabinetes",
+            "id": "gabinetes"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "gabinete-07",
+        "titulo": "Gabinete 07",
+        "imagen": "./img/productos/gabinetes/gabinete_07.png",
+        "categoria": {
+            "nombre": "Gabinetes",
+            "id": "gabinetes"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "ram-01",
+        "titulo": "Memoria 01",
+        "imagen": "./img/productos/memorias/ram_01.png",
+        "categoria": {
+            "nombre": "Memorias",
+            "id": "memorias"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "ram-02",
+        "titulo": "Memoria 02",
+        "imagen": "./img/productos/memorias/ram_02.png",
+        "categoria": {
+            "nombre": "Memorias",
+            "id": "memorias"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "ram-03",
+        "titulo": "Memoria 03",
+        "imagen": "./img/productos/memorias/ram_03.png",
+        "categoria": {
+            "nombre": "Memorias",
+            "id": "memorias"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "ram-04",
+        "titulo": "Memoria 04",
+        "imagen": "./img/productos/memorias/ram_04.png",
+        "categoria": {
+            "nombre": "Memorias",
+            "id": "memorias"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "ram-05",
+        "titulo": "Memoria 05",
+        "imagen": "./img/productos/memorias/ram_05.png",
+        "categoria": {
+            "nombre": "Memorias",
+            "id": "memorias"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "ram-06",
+        "titulo": "Memoria 06",
+        "imagen": "./img/productos/memorias/ram_06.png",
+        "categoria": {
+            "nombre": "Memorias",
+            "id": "memorias"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "monitor-01",
+        "titulo": "Monitor 01",
+        "imagen": "./img/productos/monitores/monitor_01.png",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "monitor-02",
+        "titulo": "Monitor 02",
+        "imagen": "./img/productos/monitores/monitor_02.png",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "monitor-03",
+        "titulo": "Monitor 03",
+        "imagen": "./img/productos/monitores/monitor_03.png",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "monitor-04",
+        "titulo": "Monitor 04",
+        "imagen": "./img/productos/monitores/monitor_04.png",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "monitor-05",
+        "titulo": "Monitor 05",
+        "imagen": "./img/productos/monitores/monitor_05.png",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "monitor-06",
+        "titulo": "Monitor 06",
+        "imagen": "./img/productos/monitores/monitor_06.png",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "mother-01",
+        "titulo": "Mothers 01",
+        "imagen": "./img/productos/mothers/mother_01.png",
+        "categoria": {
+            "nombre": "Mothers",
+            "id": "mothers"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "mother-02",
+        "titulo": "Mothers 02",
+        "imagen": "./img/productos/mothers/mother_02.png",
+        "categoria": {
+            "nombre": "Mothers",
+            "id": "mothers"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "mother-03",
+        "titulo": "Mothers 03",
+        "imagen": "./img/productos/mothers/mother_03.png",
+        "categoria": {
+            "nombre": "Mothers",
+            "id": "mothers"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "mother-04",
+        "titulo": "Mothers 04",
+        "imagen": "./img/productos/mothers/mother_04.png",
+        "categoria": {
+            "nombre": "Mothers",
+            "id": "mothers"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "mother-05",
+        "titulo": "Mothers 05",
+        "imagen": "./img/productos/mothers/mother_05.png",
+        "categoria": {
+            "nombre": "Mothers",
+            "id": "mothers"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "mother-06",
+        "titulo": "Mothers 06",
+        "imagen": "./img/productos/mothers/mother_06.png",
+        "categoria": {
+            "nombre": "Mothers",
+            "id": "mothers"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "note-01",
+        "titulo": "Notebook 01",
+        "imagen": "./img/productos/notebook/note_01.png",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 195000
+    },
+    {
+        "id": "note-02",
+        "titulo": "Notebook 02",
+        "imagen": "./img/productos/notebook/note_02.png",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 195000
+    },
+    {
+        "id": "note-03",
+        "titulo": "Notebook 03",
+        "imagen": "./img/productos/notebook/note_03.png",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 195000
+    },
+    {
+        "id": "note-04",
+        "titulo": "Notebook 04",
+        "imagen": "./img/productos/notebook/note_04.png",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 195000
+    },
+    {
+        "id": "note-05",
+        "titulo": "Notebook 05",
+        "imagen": "./img/productos/notebook/note_05.png",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 195000
+    },
+    {
+        "id": "note-06",
+        "titulo": "Notebook 06",
+        "imagen": "./img/productos/notebook/note_06.png",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 195000
+    },
+    {
+        "id": "note-07",
+        "titulo": "Notebook 07",
+        "imagen": "./img/productos/notebook/note_07.png",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 195000
+    },
+    {
+        "id": "auri-01",
+        "titulo": "Ariculares 01",
+        "imagen": "./img/productos/perifericos/auri_01.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "auri-02",
+        "titulo": "Ariculares 02",
+        "imagen": "./img/productos/perifericos/auri_02.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "auri-03",
+        "titulo": "Ariculares 03",
+        "imagen": "./img/productos/perifericos/auri_03.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "cam-01",
+        "titulo": "Camaras 01",
+        "imagen": "./img/productos/perifericos/cam_01.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 11000
+    },
+    {
+        "id": "cam-02",
+        "titulo": "Camaras 02",
+        "imagen": "./img/productos/perifericos/cam_02.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 11000
+    },
+    {
+        "id": "mic-01",
+        "titulo": "Microfonos 01",
+        "imagen": "./img/productos/perifericos/mic_01.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "mic-02",
+        "titulo": "Microfonos 02",
+        "imagen": "./img/productos/perifericos/mic_02.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "mic-03",
+        "titulo": "Micrófonos 03",
+        "imagen": "./img/productos/perifericos/mic_03.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "mouse-01",
+        "titulo": "Mouse 01",
+        "imagen": "./img/productos/perifericos/mouse_01.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "mouse-02",
+        "titulo": "Mouse 02",
+        "imagen": "./img/productos/perifericos/mouse_02.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "teclado-01",
+        "titulo": "Teclado 01",
+        "imagen": "./img/productos/perifericos/teclado_01.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 9500
+    },
+    {
+        "id": "teclado-02",
+        "titulo": "Teclado 02",
+        "imagen": "./img/productos/perifericos/teclado_02.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 9500
+    },
+    {
+        "id": "teclado-03",
+        "titulo": "Teclado 03",
+        "imagen": "./img/productos/perifericos/teclado_03.png",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 9500
+    },
+    {
+        "id": "proce-01",
+        "titulo": "Procesadores 01",
+        "imagen": "./img/productos/procesadores/proce_01.png",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesadores"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "proce-02",
+        "titulo": "Procesadores 02",
+        "imagen": "./img/productos/procesadores/proce_02.png",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesadores"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "proce-03",
+        "titulo": "Procesadores 03",
+        "imagen": "./img/productos/procesadores/proce_03.png",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesadores"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "proce-04",
+        "titulo": "Procesadores 04",
+        "imagen": "./img/productos/procesadores/proce_04.png",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesadores"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "proce-05",
+        "titulo": "Procesadores 05",
+        "imagen": "./img/productos/procesadores/proce_05.png",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesadores"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "proce-06",
+        "titulo": "Procesadores 06",
+        "imagen": "./img/productos/procesadores/proce_06.png",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesadores"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "video-01",
+        "titulo": "Videos 01",
+        "imagen": "./img/productos/video/video_01.png",
+        "categoria": {
+            "nombre": "Videos",
+            "id": "videos"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "video-02",
+        "titulo": "Videos 02",
+        "imagen": "./img/productos/video/video_02.png",
+        "categoria": {
+            "nombre": "Videos",
+            "id": "videos"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "video-03",
+        "titulo": "Videos 03",
+        "imagen": "./img/productos/video/video_03.png",
+        "categoria": {
+            "nombre": "Videos",
+            "id": "videos"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "video-04",
+        "titulo": "Videos 04",
+        "imagen": "./img/productos/video/video_04.png",
+        "categoria": {
+            "nombre": "Videos",
+            "id": "videos"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "video-05",
+        "titulo": "Videos 05",
+        "imagen": "./img/productos/video/video_05.png",
+        "categoria": {
+            "nombre": "Videos",
+            "id": "videos"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "video-06",
+        "titulo": "Videos 06",
+        "imagen": "./img/productos/video/video_06.png",
+        "categoria": {
+            "nombre": "Videos",
+            "id": "videos"
+        },
+        "precio": 25000
+    }
+
+
+
+
+]

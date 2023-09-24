@@ -1,67 +1,67 @@
 [
     {
         "id": "disco-01",
-        "titulo": "Disco 01",
+        "titulo": "Disco Rígido WD 1TB BLUE 64MB SATA 6.0GB/s",
         "imagen": "./img/productos/almacenamiento/disco_01.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 325000
     },
     {
         "id": "disco-02",
-        "titulo": "Disco 02",
+        "titulo": "Disco Rígido Seagate 1TB Barracuda 64MB SATA",
         "imagen": "./img/productos/almacenamiento/disco_02.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 124500
     },
     {
         "id": "disco-03",
-        "titulo": "Disco 03",
+        "titulo": "Disco Rigido WD 14TB Purple 7.2K RPM 512MB",
         "imagen": "./img/productos/almacenamiento/disco_03.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 105200
     },
     {
         "id": "disco-04",
-        "titulo": "Disco 04",
+        "titulo": "Disco Sólido SSD M.2 1TB XPG Spectrix S40G",
         "imagen": "./img/productos/almacenamiento/disco_04.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 145100
     },
     {
         "id": "disco-05",
-        "titulo": "Disco 05",
+        "titulo": "Disco Sólido SSD Kingston 240GB A400 500MB/s",
         "imagen": "./img/productos/almacenamiento/disco_05.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 100000
     },
     {
         "id": "disco-06",
-        "titulo": "Disco 06",
+        "titulo": "Disco Sólido SSD WD 480GB GREEN SATA",
         "imagen": "./img/productos/almacenamiento/disco_06.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 100000
     },
     {
         "id": "fuente-01",
-        "titulo": "Fuente 01",
+        "titulo": "Fuente Deepcool 700W DA700 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_01.png",
         "categoria": {
             "nombre": "Fuente",
@@ -71,7 +71,7 @@
     },
     {
         "id": "fuente-02",
-        "titulo": "Fuente 02",
+        "titulo": "Fuente Be Quiet 850W 80 Plus Gold",
         "imagen": "./img/productos/fuentes/fuente_02.png",
         "categoria": {
             "nombre": "Fuente",
@@ -81,7 +81,7 @@
     },
     {
         "id": "fuente-03",
-        "titulo": "Fuente 03",
+        "titulo": "Fuente Gigabyte 650W 80 Plus Bronze P650B*",
         "imagen": "./img/productos/fuentes/fuente_03.png",
         "categoria": {
             "nombre": "Fuente",
@@ -91,7 +91,7 @@
     },
     {
         "id": "fuente-04",
-        "titulo": "Fuente 04",
+        "titulo": "Fuente Aerocool Cylon 700W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_04.png",
         "categoria": {
             "nombre": "Fuente",
@@ -101,7 +101,7 @@
     },
     {
         "id": "fuente-05",
-        "titulo": "Fuente 05",
+        "titulo": "Fuente Thermaltake 650W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_05.png",
         "categoria": {
             "nombre": "Fuente",
@@ -111,7 +111,7 @@
     },
     {
         "id": "fuente-06",
-        "titulo": "Fuente 06",
+        "titulo": "Fuente ASUS TUF 650W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_06.png",
         "categoria": {
             "nombre": "Fuente",
@@ -121,7 +121,7 @@
     },
     {
         "id": "gabinete-01",
-        "titulo": "Gabinete 01",
+        "titulo": "Gabinete Deepcool MATREXX 70 ADD-RGB",
         "imagen": "./img/productos/gabinetes/gabinete_01.png",
         "categoria": {
             "nombre": "Gabinetes",
@@ -131,7 +131,7 @@
     },
     {
         "id": "gabinete-02",
-        "titulo": "Gabinete 02",
+        "titulo": "Gabinete Be quiet! Window Black Mesh",
         "imagen": "./img/productos/gabinetes/gabinete_02.png",
         "categoria": {
             "nombre": "Gabinetes",
@@ -141,7 +141,7 @@
     },
     {
         "id": "gabinete-03",
-        "titulo": "Gabinete 03",
+        "titulo": "Gabinete Corsair ICUE 220T RGB Tempered Glass",
         "imagen": "./img/productos/gabinetes/gabinete_03.png",
         "categoria": {
             "nombre": "Gabinetes",
@@ -151,7 +151,7 @@
     },
     {
         "id": "gabinete-04",
-        "titulo": "Gabinete 04",
+        "titulo": "Gabinete Thermaltake V200 Ryzen Edition",
         "imagen": "./img/productos/gabinetes/gabinete_04.png",
         "categoria": {
             "nombre": "Gabinetes",
@@ -161,7 +161,7 @@
     },
     {
         "id": "gabinete-05",
-        "titulo": "Gabinete 05",
+        "titulo": "Gabinete Cougar MX410 Mesh-G RGB",
         "imagen": "./img/productos/gabinetes/gabinete_05.png",
         "categoria": {
             "nombre": "Gabinetes",
@@ -171,7 +171,7 @@
     },
     {
         "id": "gabinete-06",
-        "titulo": "Gabinete 06",
+        "titulo": "Gabinete ASUS TUF GT301 ARGB",
         "imagen": "./img/productos/gabinetes/gabinete_06.png",
         "categoria": {
             "nombre": "Gabinetes",
@@ -181,7 +181,7 @@
     },
     {
         "id": "gabinete-07",
-        "titulo": "Gabinete 07",
+        "titulo": "Gabinete Aerocool MECHA TG 1",
         "imagen": "./img/productos/gabinetes/gabinete_07.png",
         "categoria": {
             "nombre": "Gabinetes",
@@ -191,7 +191,7 @@
     },
     {
         "id": "ram-01",
-        "titulo": "Memoria 01",
+        "titulo": "RAM Adata DDR4 16GB 4133MHz XPG Spectrix",
         "imagen": "./img/productos/memorias/ram_01.png",
         "categoria": {
             "nombre": "Memorias",
@@ -201,7 +201,7 @@
     },
     {
         "id": "ram-02",
-        "titulo": "Memoria 02",
+        "titulo": "RAM Corsair DDR4 8GB 2666Mhz Vengeance LPX",
         "imagen": "./img/productos/memorias/ram_02.png",
         "categoria": {
             "nombre": "Memorias",
@@ -211,7 +211,7 @@
     },
     {
         "id": "ram-03",
-        "titulo": "Memoria 03",
+        "titulo": "RAM GeiL DDR4 16GB 3000MHz Orion Red",
         "imagen": "./img/productos/memorias/ram_03.png",
         "categoria": {
             "nombre": "Memorias",
@@ -221,7 +221,7 @@
     },
     {
         "id": "ram-04",
-        "titulo": "Memoria 04",
+        "titulo": "RAM Patriot Viper DDR4 8GB 3600MHz Steel",
         "imagen": "./img/productos/memorias/ram_04.png",
         "categoria": {
             "nombre": "Memorias",
@@ -231,7 +231,7 @@
     },
     {
         "id": "ram-05",
-        "titulo": "Memoria 05",
+        "titulo": "RAM Kingston DDR4 8GB 3200MHz Fury Beast",
         "imagen": "./img/productos/memorias/ram_05.png",
         "categoria": {
             "nombre": "Memorias",
@@ -241,7 +241,7 @@
     },
     {
         "id": "ram-06",
-        "titulo": "Memoria 06",
+        "titulo": "RAM Team DDR4 8GB 3200MHz T-Force Vulcan",
         "imagen": "./img/productos/memorias/ram_06.png",
         "categoria": {
             "nombre": "Memorias",
@@ -251,7 +251,7 @@
     },
     {
         "id": "monitor-01",
-        "titulo": "Monitor 01",
+        "titulo": "Monitor Gamer Samsung 24 Curvo 144Hz Full HD",
         "imagen": "./img/productos/monitores/monitor_01.png",
         "categoria": {
             "nombre": "Monitores",
@@ -261,7 +261,7 @@
     },
     {
         "id": "monitor-02",
-        "titulo": "Monitor 02",
+        "titulo": "Monitor Gamer LG 27 27GL650F 144hz IPS FHD",
         "imagen": "./img/productos/monitores/monitor_02.png",
         "categoria": {
             "nombre": "Monitores",
@@ -271,7 +271,7 @@
     },
     {
         "id": "monitor-03",
-        "titulo": "Monitor 03",
+        "titulo": "Monitor Gamer Cooler Master 27 165hz Curvo",
         "imagen": "./img/productos/monitores/monitor_03.png",
         "categoria": {
             "nombre": "Monitores",
@@ -281,7 +281,7 @@
     },
     {
         "id": "monitor-04",
-        "titulo": "Monitor 04",
+        "titulo": "Monitor ASUS 21.5 Full HD 1ms HDMI VGA",
         "imagen": "./img/productos/monitores/monitor_04.png",
         "categoria": {
             "nombre": "Monitores",
@@ -291,7 +291,7 @@
     },
     {
         "id": "monitor-05",
-        "titulo": "Monitor 05",
+        "titulo": "Monitor Gamer Viewsonic 24 Curvo 165hz",
         "imagen": "./img/productos/monitores/monitor_05.png",
         "categoria": {
             "nombre": "Monitores",
@@ -301,7 +301,7 @@
     },
     {
         "id": "monitor-06",
-        "titulo": "Monitor 06",
+        "titulo": "Monitor Gamer Samsung 27 Odyssey Curvo QHD",
         "imagen": "./img/productos/monitores/monitor_06.png",
         "categoria": {
             "nombre": "Monitores",
@@ -311,7 +311,7 @@
     },
     {
         "id": "mother-01",
-        "titulo": "Mothers 01",
+        "titulo": "Mother MSI A320M-A PRO AM4",
         "imagen": "./img/productos/mothers/mother_01.png",
         "categoria": {
             "nombre": "Mothers",
@@ -321,7 +321,7 @@
     },
     {
         "id": "mother-02",
-        "titulo": "Mothers 02",
+        "titulo": "Mother Asrock B450M/AC AM4 R2.0 WIFI",
         "imagen": "./img/productos/mothers/mother_02.png",
         "categoria": {
             "nombre": "Mothers",
@@ -331,7 +331,7 @@
     },
     {
         "id": "mother-03",
-        "titulo": "Mothers 03",
+        "titulo": "Mother Gigabyte A520M V2 DDR4 AM4",
         "imagen": "./img/productos/mothers/mother_03.png",
         "categoria": {
             "nombre": "Mothers",
@@ -341,7 +341,7 @@
     },
     {
         "id": "mother-04",
-        "titulo": "Mothers 04",
+        "titulo": "Mother ASUS PRIME A520M-K DDR4 AM4",
         "imagen": "./img/productos/mothers/mother_04.png",
         "categoria": {
             "nombre": "Mothers",
@@ -351,7 +351,7 @@
     },
     {
         "id": "mother-05",
-        "titulo": "Mothers 05",
+        "titulo": "Mother ASUS ROG CROSSHAIR X670E",
         "imagen": "./img/productos/mothers/mother_05.png",
         "categoria": {
             "nombre": "Mothers",
@@ -361,7 +361,7 @@
     },
     {
         "id": "mother-06",
-        "titulo": "Mothers 06",
+        "titulo": "Mother ASUS TUF GAMING CROSSHAIR X670E",
         "imagen": "./img/productos/mothers/mother_06.png",
         "categoria": {
             "nombre": "Mothers",
@@ -371,8 +371,8 @@
     },
     {
         "id": "note-01",
-        "titulo": "Notebook 01",
-        "imagen": "./img/productos/notebook/note_01.png",
+        "titulo": "Notebook Gamer Asus TUF FA506 FHD 15.6 Ryzen 5 4600Hz",
+        "imagen": "./img/productos/notebooks/note_01.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -381,8 +381,8 @@
     },
     {
         "id": "note-02",
-        "titulo": "Notebook 02",
-        "imagen": "./img/productos/notebook/note_02.png",
+        "titulo": "Notebook Lenovo ThinkPad E14 FHD 14 Core I7 1165G7",
+        "imagen": "./img/productos/notebooks/note_02.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -391,8 +391,8 @@
     },
     {
         "id": "note-03",
-        "titulo": "Notebook 03",
-        "imagen": "./img/productos/notebook/note_03.png",
+        "titulo": "Notebook ASUS X515EA 15.6 Core I3 1115G4",
+        "imagen": "./img/productos/notebooks/note_03.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -401,8 +401,8 @@
     },
     {
         "id": "note-04",
-        "titulo": "Notebook 04",
-        "imagen": "./img/productos/notebook/note_04.png",
+        "titulo": "Notebook Gamer ASUS TUF FX506 FHD 15.6 Core i5 10300H",
+        "imagen": "./img/productos/notebooks/note_04.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -411,8 +411,8 @@
     },
     {
         "id": "note-05",
-        "titulo": "Notebook 05",
-        "imagen": "./img/productos/notebook/note_05.png",
+        "titulo": "Notebook Asus Vivobook M3500 OLED FHD 15.6 Ryzen 7 5800H",
+        "imagen": "./img/productos/notebooks/note_05.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -421,8 +421,8 @@
     },
     {
         "id": "note-06",
-        "titulo": "Notebook 06",
-        "imagen": "./img/productos/notebook/note_06.png",
+        "titulo": "Notebook Lenovo Legion 5 15ACH6H 15.6 Ryzen 5 5600H",
+        "imagen": "./img/productos/notebooks/note_06.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -431,8 +431,8 @@
     },
     {
         "id": "note-07",
-        "titulo": "Notebook 07",
-        "imagen": "./img/productos/notebook/note_07.png",
+        "titulo": "Notebook Gamer Thunderobot 911 AIR 15.6 Core I7 12700H",
+        "imagen": "./img/productos/notebooks/note_07.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -441,7 +441,7 @@
     },
     {
         "id": "auri-01",
-        "titulo": "Ariculares 01",
+        "titulo": "Auriculares Hyperx Cloud Alpha Black/Red",
         "imagen": "./img/productos/perifericos/auri_01.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -451,7 +451,7 @@
     },
     {
         "id": "auri-02",
-        "titulo": "Ariculares 02",
+        "titulo": "Auriculares Logitech G935 LightSync Inalambrico 7.1",
         "imagen": "./img/productos/perifericos/auri_02.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -461,7 +461,7 @@
     },
     {
         "id": "auri-03",
-        "titulo": "Ariculares 03",
+        "titulo": "Auriculares Marvo Skylab G1 HG8960 PRO",
         "imagen": "./img/productos/perifericos/auri_03.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -471,7 +471,7 @@
     },
     {
         "id": "cam-01",
-        "titulo": "Camaras 01",
+        "titulo": "WebCam Logitech C505 HD 720P USB",
         "imagen": "./img/productos/perifericos/cam_01.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -481,7 +481,7 @@
     },
     {
         "id": "cam-02",
-        "titulo": "Camaras 02",
+        "titulo": "WebCam Logitech C922 Pro Full HD 1080p",
         "imagen": "./img/productos/perifericos/cam_02.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -491,7 +491,7 @@
     },
     {
         "id": "mic-01",
-        "titulo": "Microfonos 01",
+        "titulo": "Micrófono HyperX QuadCast Streaming",
         "imagen": "./img/productos/perifericos/mic_01.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -501,7 +501,7 @@
     },
     {
         "id": "mic-02",
-        "titulo": "Microfonos 02",
+        "titulo": "Microfono HyperX SoloCast",
         "imagen": "./img/productos/perifericos/mic_02.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -511,7 +511,7 @@
     },
     {
         "id": "mic-03",
-        "titulo": "Micrófonos 03",
+        "titulo": "Microfono HyperX DuoCast USB",
         "imagen": "./img/productos/perifericos/mic_03.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -521,7 +521,7 @@
     },
     {
         "id": "mouse-01",
-        "titulo": "Mouse 01",
+        "titulo": "Mouse Redragon Gainer M610",
         "imagen": "./img/productos/perifericos/mouse_01.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -531,7 +531,7 @@
     },
     {
         "id": "mouse-02",
-        "titulo": "Mouse 02",
+        "titulo": "Mouse Cougar Surpassion FPS RGB 7200 DPI",
         "imagen": "./img/productos/perifericos/mouse_02.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -541,7 +541,7 @@
     },
     {
         "id": "teclado-01",
-        "titulo": "Teclado 01",
+        "titulo": "Teclado Mecanico HyperX Alloy Origins RGB ",
         "imagen": "./img/productos/perifericos/teclado_01.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -551,7 +551,7 @@
     },
     {
         "id": "teclado-02",
-        "titulo": "Teclado 02",
+        "titulo": "Teclado Mecanico Redragon K550 RGB",
         "imagen": "./img/productos/perifericos/teclado_02.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -561,7 +561,7 @@
     },
     {
         "id": "teclado-03",
-        "titulo": "Teclado 03",
+        "titulo": "Teclado Logitech G213 Prodigy RGB Gaming",
         "imagen": "./img/productos/perifericos/teclado_03.png",
         "categoria": {
             "nombre": "Perifericos",
@@ -571,7 +571,7 @@
     },
     {
         "id": "proce-01",
-        "titulo": "Procesadores 01",
+        "titulo": "Procesador AMD RYZEN 3 3200G 4.0GHz Turbo + Radeon Vega 8 AM4",
         "imagen": "./img/productos/procesadores/proce_01.png",
         "categoria": {
             "nombre": "Procesadores",
@@ -581,7 +581,7 @@
     },
     {
         "id": "proce-02",
-        "titulo": "Procesadores 02",
+        "titulo": "Procesador AMD RYZEN 5 3600 4.2GHz Turbo AM4 Wraith Stealth Cooler",
         "imagen": "./img/productos/procesadores/proce_02.png",
         "categoria": {
             "nombre": "Procesadores",
@@ -591,7 +591,7 @@
     },
     {
         "id": "proce-03",
-        "titulo": "Procesadores 03",
+        "titulo": "Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4 No incluye Cooler",
         "imagen": "./img/productos/procesadores/proce_03.png",
         "categoria": {
             "nombre": "Procesadores",
@@ -601,7 +601,7 @@
     },
     {
         "id": "proce-04",
-        "titulo": "Procesadores 04",
+        "titulo": "Procesador Intel Core i3 10100F 4.3GHz Turbo Socket 1200 Comet Lake ",
         "imagen": "./img/productos/procesadores/proce_04.png",
         "categoria": {
             "nombre": "Procesadores",
@@ -611,7 +611,7 @@
     },
     {
         "id": "proce-05",
-        "titulo": "Procesadores 05",
+        "titulo": "Procesador Intel Core i5 10400 4.3GHz Turbo Socket 1200 Comet Lake",
         "imagen": "./img/productos/procesadores/proce_05.png",
         "categoria": {
             "nombre": "Procesadores",
@@ -621,7 +621,7 @@
     },
     {
         "id": "proce-06",
-        "titulo": "Procesadores 06",
+        "titulo": "Procesador Intel Core i7 11700KF 5.0GHz Turbo Socket 1200 Rocket Lake ",
         "imagen": "./img/productos/procesadores/proce_06.png",
         "categoria": {
             "nombre": "Procesadores",
@@ -631,7 +631,7 @@
     },
     {
         "id": "video-01",
-        "titulo": "Videos 01",
+        "titulo": "Placa ASUS Phoenix  GeForce GTX 1630",
         "imagen": "./img/productos/video/video_01.png",
         "categoria": {
             "nombre": "Videos",
@@ -641,7 +641,7 @@
     },
     {
         "id": "video-02",
-        "titulo": "Videos 02",
+        "titulo": "Placa ASUS GeForce GTX 1660 SUPER TUF",
         "imagen": "./img/productos/video/video_02.png",
         "categoria": {
             "nombre": "Videos",
@@ -651,7 +651,7 @@
     },
     {
         "id": "video-03",
-        "titulo": "Videos 03",
+        "titulo": "Placa ASUS GeForce RTX 3070 ROG STRIX",
         "imagen": "./img/productos/video/video_03.png",
         "categoria": {
             "nombre": "Videos",
@@ -661,7 +661,7 @@
     },
     {
         "id": "video-04",
-        "titulo": "Videos 04",
+        "titulo": "Placa Asrock Radeon RX 6500 PHANTOM",
         "imagen": "./img/productos/video/video_04.png",
         "categoria": {
             "nombre": "Videos",
@@ -671,7 +671,7 @@
     },
     {
         "id": "video-05",
-        "titulo": "Videos 05",
+        "titulo": "Placa XFX Radeon RX 6650 SPEEDSTER QICK",
         "imagen": "./img/productos/video/video_05.png",
         "categoria": {
             "nombre": "Videos",
@@ -681,7 +681,7 @@
     },
     {
         "id": "video-06",
-        "titulo": "Videos 06",
+        "titulo": "Placa XFX Radeon RX 6650 SPEEDSTER MERC",
         "imagen": "./img/productos/video/video_06.png",
         "categoria": {
             "nombre": "Videos",

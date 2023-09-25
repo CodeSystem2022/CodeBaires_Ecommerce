@@ -61,63 +61,63 @@
     },
     {
         "id": "fuente-01",
-        "titulo": "Fuente 01",
+        "titulo": "Fuente Deepcool 700W DA700 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_01.png",
         "categoria": {
             "nombre": "Fuentes",
             "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 51850
     },
     {
         "id": "fuente-02",
-        "titulo": "Fuente 02",
+        "titulo": "Fuente Be Quiet 850W 80 Plus Gold",
         "imagen": "./img/productos/fuentes/fuente_02.png",
         "categoria": {
             "nombre": "Fuentes",
             "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 86800
     },
     {
         "id": "fuente-03",
-        "titulo": "Fuente 03",
+        "titulo": "Fuente Gigabyte 650W<br>80 Plus Bronze P650B*",
         "imagen": "./img/productos/fuentes/fuente_03.png",
         "categoria": {
             "nombre": "Fuentes",
             "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 57900
     },
     {
         "id": "fuente-04",
-        "titulo": "Fuente 04",
+        "titulo": "Fuente Aerocool Cylon 700W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_04.png",
         "categoria": {
             "nombre": "Fuentes",
             "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 57100
     },
     {
         "id": "fuente-05",
-        "titulo": "Fuente 05",
+        "titulo": "Fuente Thermaltake 650W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_05.png",
         "categoria": {
             "nombre": "Fuentes",
             "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 54000
     },
     {
         "id": "fuente-06",
-        "titulo": "Fuente 06",
+        "titulo": "Fuente ASUS TUF 650W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_06.png",
         "categoria": {
             "nombre": "Fuentes",
             "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 62350
     },
     {
         "id": "gabinete-01",

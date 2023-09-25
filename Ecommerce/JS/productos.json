@@ -251,63 +251,63 @@
     },
     {
         "id": "monitor-01",
-        "titulo": "Monitor 01",
+        "titulo": "Monitor Gamer Samsung 24 Curvo 144Hz Full HD",
         "imagen": "./img/productos/monitores/monitor_01.png",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 129999
     },
     {
         "id": "monitor-02",
-        "titulo": "Monitor 02",
+        "titulo": "Monitor Gamer LG 27 27GL650F 144hz IPS FHD",
         "imagen": "./img/productos/monitores/monitor_02.png",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 212650
     },
     {
         "id": "monitor-03",
-        "titulo": "Monitor 03",
+        "titulo": "Monitor Gamer Cooler Master 27 165hz Curvo",
         "imagen": "./img/productos/monitores/monitor_03.png",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 218700
     },
     {
         "id": "monitor-04",
-        "titulo": "Monitor 04",
+        "titulo": "Monitor ASUS 21.5 Full HD 1ms HDMI VGA",
         "imagen": "./img/productos/monitores/monitor_04.png",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 88900
     },
     {
         "id": "monitor-05",
-        "titulo": "Monitor 05",
+        "titulo": "Monitor Gamer Viewsonic 24 Curvo 165hz",
         "imagen": "./img/productos/monitores/monitor_05.png",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 168650
     },
     {
         "id": "monitor-06",
-        "titulo": "Monitor 06",
+        "titulo": "Monitor Gamer Samsung 27 Odyssey Curvo QHD",
         "imagen": "./img/productos/monitores/monitor_06.png",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 274300
     },
     {
         "id": "mother-01",

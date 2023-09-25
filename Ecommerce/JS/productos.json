@@ -371,73 +371,73 @@
     },
     {
         "id": "note-01",
-        "titulo": "Notebook 01",
+        "titulo": "Notebook Gamer Asus TUF FA506 FHD 15.6 Ryzen 5 4600Hz",
         "imagen": "./img/productos/notebooks/note_01.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 805999
     },
     {
         "id": "note-02",
-        "titulo": "Notebook 02",
+        "titulo": "Notebook Lenovo ThinkPad E14 FHD 14 Core I7 1165G7",
         "imagen": "./img/productos/notebooks/note_02.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 999455
     },
     {
         "id": "note-03",
-        "titulo": "Notebook 03",
+        "titulo": "Notebook ASUS X515EA 15.6 Core I3 1115G4",
         "imagen": "./img/productos/notebooks/note_03.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 380995
     },
     {
         "id": "note-04",
-        "titulo": "Notebook 04",
+        "titulo": "Notebook Gamer ASUS TUF FX506 FHD 15.6 Core i5 10300H",
         "imagen": "./img/productos/notebooks/note_04.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 789999
     },
     {
         "id": "note-05",
-        "titulo": "Notebook 05",
+        "titulo": "Notebook Asus Vivobook M3500 OLED FHD 15.6 Ryzen 7 5800H",
         "imagen": "./img/productos/notebooks/note_05.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 749999
     },
     {
         "id": "note-06",
-        "titulo": "Notebook 06",
+        "titulo": "Notebook Lenovo Legion 5 15ACH6H 15.6 Ryzen 5 5600H",
         "imagen": "./img/productos/notebooks/note_06.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 1135999
     },
     {
         "id": "note-07",
         "titulo": "Notebook 07",
         "imagen": "./img/productos/notebooks/note_07.png",
         "categoria": {
-            "nombre": "Notebooks",
+            "nombre": "Notebook Gamer Thunderobot 911 AIR 15.6 Core I7 12700H",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 949.990
     },
     {
         "id": "auri-01",

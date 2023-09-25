@@ -631,66 +631,63 @@
     },
     {
         "id": "video-01",
-        "titulo": "Videos 01",
+        "titulo": "Placa ASUS Phoenix GeForce GTX 1630",
         "imagen": "./img/productos/video/video_01.png",
         "categoria": {
             "nombre": "Placas de video",
             "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 212450
     },
     {
         "id": "video-02",
-        "titulo": "Videos 02",
+        "titulo": "Placa ASUS GeForce GTX 1660 SUPER TUF",
         "imagen": "./img/productos/video/video_02.png",
         "categoria": {
             "nombre": "Placas de video",
             "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 335550
     },
     {
         "id": "video-03",
-        "titulo": "Videos 03",
+        "titulo": "Placa ASUS GeForce RTX 3070 ROG STRIX",
         "imagen": "./img/productos/video/video_03.png",
         "categoria": {
             "nombre": "Placas de video",
             "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 500400
     },
     {
         "id": "video-04",
-        "titulo": "Videos 04",
+        "titulo": "Placa Asrock Radeon RX 6500 PHANTOM",
         "imagen": "./img/productos/video/video_04.png",
         "categoria": {
             "nombre": "Placas de video",
             "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 228650
     },
     {
         "id": "video-05",
-        "titulo": "Videos 05",
+        "titulo": "Placa XFX Radeon RX 6650 SPEEDSTER QICK",
         "imagen": "./img/productos/video/video_05.png",
         "categoria": {
             "nombre": "Placas de video",
             "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 326900
     },
     {
         "id": "video-06",
-        "titulo": "Videos 06",
+        "titulo": "Placa XFX Radeon RX 6650 SPEEDSTER MERC",
         "imagen": "./img/productos/video/video_06.png",
         "categoria": {
             "nombre": "Placas de video",
             "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 354500
     }
-
-
-
 
 ]

@@ -571,63 +571,63 @@
     },
     {
         "id": "proce-01",
-        "titulo": "Procesadores 01",
+        "titulo": "Procesador AMD RYZEN 3 3200G 4.0GHz Turbo + Radeon Vega 8 AM4",
         "imagen": "./img/productos/procesadores/proce_01.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 84900
     },
     {
         "id": "proce-02",
-        "titulo": "Procesadores 02",
+        "titulo": "Procesador AMD RYZEN 5 3600 4.2GHz Turbo AM4 Wraith Stealth Cooler",
         "imagen": "./img/productos/procesadores/proce_02.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 123500
     },
     {
         "id": "proce-03",
-        "titulo": "Procesadores 03",
+        "titulo": "Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4 (No incluye Cooler)",
         "imagen": "./img/productos/procesadores/proce_03.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 330200
     },
     {
         "id": "proce-04",
-        "titulo": "Procesadores 04",
+        "titulo": "Procesador Intel Core i3 10100F 4.3GHz Turbo Socket 1200 Comet Lake",
         "imagen": "./img/productos/procesadores/proce_04.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 61950
     },
     {
         "id": "proce-05",
-        "titulo": "Procesadores 05",
+        "titulo": "Procesador Intel Core i5 10400 4.3GHz Turbo Socket 1200 Comet Lake",
         "imagen": "./img/productos/procesadores/proce_05.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 146500
     },
     {
         "id": "proce-06",
-        "titulo": "Procesadores 06",
+        "titulo": "Procesador Intel Core i7 11700KF 5.0GHz Turbo Socket 1200 Rocket Lake",
         "imagen": "./img/productos/procesadores/proce_06.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 325300
     },
     {
         "id": "video-01",

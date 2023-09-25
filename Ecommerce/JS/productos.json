@@ -311,63 +311,63 @@
     },
     {
         "id": "mother-01",
-        "titulo": "Mothers 01",
+        "titulo": "Mother MSI A320M-A PRO AM4",
         "imagen": "./img/productos/mothers/mother_01.png",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 83600
     },
     {
         "id": "mother-02",
-        "titulo": "Mothers 02",
+        "titulo": "Mother Asrock B450M/AC AM4 R2.0 WIFI",
         "imagen": "./img/productos/mothers/mother_02.png",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 87500
     },
     {
         "id": "mother-03",
-        "titulo": "Mothers 03",
+        "titulo": "Mother Gigabyte A520M V2 DDR4 AM4",
         "imagen": "./img/productos/mothers/mother_03.png",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 87000
     },
     {
         "id": "mother-04",
-        "titulo": "Mothers 04",
+        "titulo": "Mother ASUS PRIME A520M-K DDR4 AM4",
         "imagen": "./img/productos/mothers/mother_04.png",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 76910
     },
     {
         "id": "mother-05",
-        "titulo": "Mothers 05",
+        "titulo": "Mother ASUS ROG CROSSHAIR X670E",
         "imagen": "./img/productos/mothers/mother_05.png",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 700150
     },
     {
         "id": "mother-06",
-        "titulo": "Mothers 06",
+        "titulo": "Mother ASUS TUF GAMING CROSSHAIR X670E",
         "imagen": "./img/productos/mothers/mother_06.png",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 159000
     },
     {
         "id": "note-01",

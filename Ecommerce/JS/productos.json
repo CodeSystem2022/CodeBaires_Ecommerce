@@ -191,63 +191,63 @@
     },
     {
         "id": "ram-01",
-        "titulo": "Memoria 01",
+        "titulo": "RAM Adata DDR4 16GB 4133MHz XPG Spectrix",
         "imagen": "./img/productos/memorias/ram_01.png",
         "categoria": {
             "nombre": "Memorias RAM",
             "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 65030
     },
     {
         "id": "ram-02",
-        "titulo": "Memoria 02",
+        "titulo": "RAM Corsair DDR4 8GB 2666Mhz Vengeance LPX",
         "imagen": "./img/productos/memorias/ram_02.png",
         "categoria": {
             "nombre": "Memorias RAM",
             "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 24.340
     },
     {
         "id": "ram-03",
-        "titulo": "Memoria 03",
+        "titulo": "RAM GeiL DDR4 16GB 3000MHz Orion Red",
         "imagen": "./img/productos/memorias/ram_03.png",
         "categoria": {
             "nombre": "Memorias RAM",
             "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 60.000
     },
     {
         "id": "ram-04",
-        "titulo": "Memoria 04",
+        "titulo": "RAM Patriot Viper DDR4 8GB 3600MHz Steel",
         "imagen": "./img/productos/memorias/ram_04.png",
         "categoria": {
             "nombre": "Memorias RAM",
             "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 33100
     },
     {
         "id": "ram-05",
-        "titulo": "Memoria 05",
+        "titulo": "RAM Kingston DDR4 8GB 3200MHz Fury Beast",
         "imagen": "./img/productos/memorias/ram_05.png",
         "categoria": {
             "nombre": "Memorias RAM",
             "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 25400
     },
     {
         "id": "ram-06",
-        "titulo": "Memoria 06",
+        "titulo": "RAM Team DDR4 8GB 3200MHz T-Force Vulcan",
         "imagen": "./img/productos/memorias/ram_06.png",
         "categoria": {
             "nombre": "Memorias RAM",
             "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 24899
     },
     {
         "id": "monitor-01",

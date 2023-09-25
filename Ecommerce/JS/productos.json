@@ -634,8 +634,8 @@
         "titulo": "Videos 01",
         "imagen": "./img/productos/video/video_01.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
         "precio": 25000
     },
@@ -644,8 +644,8 @@
         "titulo": "Videos 02",
         "imagen": "./img/productos/video/video_02.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
         "precio": 25000
     },
@@ -654,8 +654,8 @@
         "titulo": "Videos 03",
         "imagen": "./img/productos/video/video_03.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
         "precio": 25000
     },
@@ -664,8 +664,8 @@
         "titulo": "Videos 04",
         "imagen": "./img/productos/video/video_04.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
         "precio": 25000
     },
@@ -674,8 +674,8 @@
         "titulo": "Videos 05",
         "imagen": "./img/productos/video/video_05.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
         "precio": 25000
     },
@@ -684,8 +684,8 @@
         "titulo": "Videos 06",
         "imagen": "./img/productos/video/video_06.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
         "precio": 25000
     }

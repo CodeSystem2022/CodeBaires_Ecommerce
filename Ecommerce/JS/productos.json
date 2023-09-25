@@ -424,150 +424,150 @@
         "titulo": "Notebook Lenovo Legion 5 15ACH6H 15.6 Ryzen 5 5600H",
         "imagen": "./img/productos/notebooks/note_06.png",
         "categoria": {
-            "nombre": "Notebooks",
+            "nombre": "",
             "id": "notebooks"
         },
         "precio": 1135999
     },
     {
         "id": "note-07",
-        "titulo": "Notebook 07",
+        "titulo": "Notebook Gamer Thunderobot 911 AIR 15.6 Core I7 12700H",
         "imagen": "./img/productos/notebooks/note_07.png",
         "categoria": {
-            "nombre": "Notebook Gamer Thunderobot 911 AIR 15.6 Core I7 12700H",
+            "nombre": "Notebooks",
             "id": "notebooks"
         },
         "precio": 949.990
     },
     {
         "id": "auri-01",
-        "titulo": "Ariculares 01",
+        "titulo": "Auriculares Hyperx Cloud Alpha Black/Red",
         "imagen": "./img/productos/perifericos/auri_01.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 10000
+        "precio": 89000
     },
     {
         "id": "auri-02",
-        "titulo": "Ariculares 02",
+        "titulo": "Auriculares Logitech G935 LightSync Inalambrico 7.1",
         "imagen": "./img/productos/perifericos/auri_02.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 10000
+        "precio": 97990
     },
     {
         "id": "auri-03",
-        "titulo": "Ariculares 03",
+        "titulo": "Auriculares Marvo Skylab G1 HG8960 PRO",
         "imagen": "./img/productos/perifericos/auri_03.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 10000
+        "precio": 21900
     },
     {
         "id": "cam-01",
-        "titulo": "Camaras 01",
+        "titulo": "WebCam Logitech C505 HD 720P USB",
         "imagen": "./img/productos/perifericos/cam_01.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 11000
+        "precio": 21999
     },
     {
         "id": "cam-02",
-        "titulo": "Camaras 02",
+        "titulo": "WebCam Logitech C922 Pro Full HD 1080p",
         "imagen": "./img/productos/perifericos/cam_02.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 11000
+        "precio": 59000
     },
     {
         "id": "mic-01",
-        "titulo": "Microfonos 01",
+        "titulo": "Micrófono HyperX QuadCast Streaming",
         "imagen": "./img/productos/perifericos/mic_01.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 15000
+        "precio": 90140
     },
     {
         "id": "mic-02",
-        "titulo": "Microfonos 02",
+        "titulo": "Microfono HyperX SoloCast",
         "imagen": "./img/productos/perifericos/mic_02.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 15000
+        "precio": 55580
     },
     {
         "id": "mic-03",
-        "titulo": "Micrófonos 03",
+        "titulo": "Microfono HyperX DuoCast USB",
         "imagen": "./img/productos/perifericos/mic_03.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 15000
+        "precio": 67160
     },
     {
         "id": "mouse-01",
-        "titulo": "Mouse 01",
+        "titulo": "Mouse Redragon Gamer M610",
         "imagen": "./img/productos/perifericos/mouse_01.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 8000
+        "precio": 9670
     },
     {
         "id": "mouse-02",
-        "titulo": "Mouse 02",
+        "titulo": "Mouse Cougar Surpassion FPS RGB 7200 DPI",
         "imagen": "./img/productos/perifericos/mouse_02.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 8000
+        "precio": 16100
     },
     {
         "id": "teclado-01",
-        "titulo": "Teclado 01",
+        "titulo": "Teclado Mecanico HyperX Alloy Origins RGB",
         "imagen": "./img/productos/perifericos/teclado_01.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 9500
+        "precio": 68280
     },
     {
         "id": "teclado-02",
-        "titulo": "Teclado 02",
+        "titulo": "Teclado Mecanico Redragon K550 RGB",
         "imagen": "./img/productos/perifericos/teclado_02.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 9500
+        "precio": 50130
     },
     {
         "id": "teclado-03",
-        "titulo": "Teclado 03",
+        "titulo": "Teclado Logitech G213 Prodigy RGB Gaming",
         "imagen": "./img/productos/perifericos/teclado_03.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 9500
+        "precio": 39999
     },
     {
         "id": "proce-01",

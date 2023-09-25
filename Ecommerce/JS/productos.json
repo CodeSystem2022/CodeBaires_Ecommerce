@@ -194,8 +194,8 @@
         "titulo": "Memoria 01",
         "imagen": "./img/productos/memorias/ram_01.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
         "precio": 75000
     },
@@ -204,8 +204,8 @@
         "titulo": "Memoria 02",
         "imagen": "./img/productos/memorias/ram_02.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
         "precio": 75000
     },
@@ -214,8 +214,8 @@
         "titulo": "Memoria 03",
         "imagen": "./img/productos/memorias/ram_03.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
         "precio": 75000
     },
@@ -224,8 +224,8 @@
         "titulo": "Memoria 04",
         "imagen": "./img/productos/memorias/ram_04.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
         "precio": 75000
     },
@@ -234,8 +234,8 @@
         "titulo": "Memoria 05",
         "imagen": "./img/productos/memorias/ram_05.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
         "precio": 75000
     },
@@ -244,8 +244,8 @@
         "titulo": "Memoria 06",
         "imagen": "./img/productos/memorias/ram_06.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
         "precio": 75000
     },

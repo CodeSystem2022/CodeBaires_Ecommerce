@@ -64,8 +64,8 @@
         "titulo": "Fuente 01",
         "imagen": "./img/productos/fuentes/fuente_01.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
         "precio": 50000
     },
@@ -74,8 +74,8 @@
         "titulo": "Fuente 02",
         "imagen": "./img/productos/fuentes/fuente_02.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
         "precio": 50000
     },
@@ -84,8 +84,8 @@
         "titulo": "Fuente 03",
         "imagen": "./img/productos/fuentes/fuente_03.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
         "precio": 50000
     },
@@ -94,8 +94,8 @@
         "titulo": "Fuente 04",
         "imagen": "./img/productos/fuentes/fuente_04.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
         "precio": 50000
     },
@@ -104,8 +104,8 @@
         "titulo": "Fuente 05",
         "imagen": "./img/productos/fuentes/fuente_05.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
         "precio": 50000
     },
@@ -114,8 +114,8 @@
         "titulo": "Fuente 06",
         "imagen": "./img/productos/fuentes/fuente_06.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
         "precio": 50000
     },

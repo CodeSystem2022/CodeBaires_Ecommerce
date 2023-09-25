@@ -372,7 +372,7 @@
     {
         "id": "note-01",
         "titulo": "Notebook 01",
-        "imagen": "./img/productos/notebook/note_01.png",
+        "imagen": "./img/productos/notebooks/note_01.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -382,7 +382,7 @@
     {
         "id": "note-02",
         "titulo": "Notebook 02",
-        "imagen": "./img/productos/notebook/note_02.png",
+        "imagen": "./img/productos/notebooks/note_02.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -392,7 +392,7 @@
     {
         "id": "note-03",
         "titulo": "Notebook 03",
-        "imagen": "./img/productos/notebook/note_03.png",
+        "imagen": "./img/productos/notebooks/note_03.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -402,7 +402,7 @@
     {
         "id": "note-04",
         "titulo": "Notebook 04",
-        "imagen": "./img/productos/notebook/note_04.png",
+        "imagen": "./img/productos/notebooks/note_04.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -412,7 +412,7 @@
     {
         "id": "note-05",
         "titulo": "Notebook 05",
-        "imagen": "./img/productos/notebook/note_05.png",
+        "imagen": "./img/productos/notebooks/note_05.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -422,7 +422,7 @@
     {
         "id": "note-06",
         "titulo": "Notebook 06",
-        "imagen": "./img/productos/notebook/note_06.png",
+        "imagen": "./img/productos/notebooks/note_06.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -432,7 +432,7 @@
     {
         "id": "note-07",
         "titulo": "Notebook 07",
-        "imagen": "./img/productos/notebook/note_07.png",
+        "imagen": "./img/productos/notebooks/note_07.png",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"

@@ -121,73 +121,73 @@
     },
     {
         "id": "gabinete-01",
-        "titulo": "Gabinete 01",
+        "titulo": "Gabinete Deepcool MATREXX 70 ADD-RGB",
         "imagen": "./img/productos/gabinetes/gabinete_01.png",
         "categoria": {
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 85350
     },
     {
         "id": "gabinete-02",
-        "titulo": "Gabinete 02",
+        "titulo": "Gabinete Be quiet! Window Black Mesh",
         "imagen": "./img/productos/gabinetes/gabinete_02.png",
         "categoria": {
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 155800
     },
     {
         "id": "gabinete-03",
-        "titulo": "Gabinete 03",
+        "titulo": "Gabinete Corsair ICUE 220T RGB Tempered Glass",
         "imagen": "./img/productos/gabinetes/gabinete_03.png",
         "categoria": {
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 106200
     },
     {
         "id": "gabinete-04",
-        "titulo": "Gabinete 04",
+        "titulo": "Gabinete Thermaltake V200 Ryzen Edition",
         "imagen": "./img/productos/gabinetes/gabinete_04.png",
         "categoria": {
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 42000
     },
     {
         "id": "gabinete-05",
-        "titulo": "Gabinete 05",
+        "titulo": "Gabinete Cougar MX410 Mesh-G RGB",
         "imagen": "./img/productos/gabinetes/gabinete_05.png",
         "categoria": {
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 54200
     },
     {
         "id": "gabinete-06",
-        "titulo": "Gabinete 06",
+        "titulo": "Gabinete ASUS TUF GT301 ARGB",
         "imagen": "./img/productos/gabinetes/gabinete_06.png",
         "categoria": {
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 76100
     },
     {
         "id": "gabinete-07",
-        "titulo": "Gabinete 07",
+        "titulo": "Gabinete Aerocool MECHA TG 1",
         "imagen": "./img/productos/gabinetes/gabinete_07.png",
         "categoria": {
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 46750
     },
     {
         "id": "ram-01",

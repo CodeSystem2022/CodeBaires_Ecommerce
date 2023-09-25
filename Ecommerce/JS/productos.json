@@ -1,63 +1,63 @@
 [
     {
         "id": "disco-01",
-        "titulo": "Disco 01",
+        "titulo": "Disco Rígido WD 1TB BLUE 64MB SATA 6.0GB/s",
         "imagen": "./img/productos/almacenamiento/disco_01.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 45650
     },
     {
         "id": "disco-02",
-        "titulo": "Disco 02",
+        "titulo": "Disco Rígido Seagate 1TB Barracuda 64MB SATA",
         "imagen": "./img/productos/almacenamiento/disco_02.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 45850
     },
     {
         "id": "disco-03",
-        "titulo": "Disco 03",
+        "titulo": "Disco Rigido WD 14TB Purple 7.2K RPM 512MB",
         "imagen": "./img/productos/almacenamiento/disco_03.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 236540
     },
     {
         "id": "disco-04",
-        "titulo": "Disco 04",
+        "titulo": "Disco Sólido SSD M.2 1TB XPG Spectrix S40",
         "imagen": "./img/productos/almacenamiento/disco_04.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 68950
     },
     {
         "id": "disco-05",
-        "titulo": "Disco 05",
+        "titulo": "Disco Sólido SSD Kingston 240GB A400 500MB/s",
         "imagen": "./img/productos/almacenamiento/disco_05.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 16610
     },
     {
         "id": "disco-06",
-        "titulo": "Disco 06",
+        "titulo": "Disco Sólido SSD WD 480GB GREEN SATA",
         "imagen": "./img/productos/almacenamiento/disco_06.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 1000
+        "precio": 24999
     },
     {
         "id": "fuente-01",

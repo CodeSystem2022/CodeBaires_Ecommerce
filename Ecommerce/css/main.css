@@ -278,14 +278,3 @@ main {
     border-bottom-right-radius: 1rem;
 }
 
-.header-mobile {
-    display: none;
-}
-
-.close-menu {
-    display: none;
-}
-
-.disabled {
-    display: none;
-}

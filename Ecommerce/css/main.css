@@ -290,7 +290,10 @@ main {
     display: none;
 }
 
-/*** MEDIA QUERIES ***/
+
+/* Media Queries */
+
+
 
 @media screen and (max-width: 850px) {
     .contenedor-productos {
@@ -393,4 +396,6 @@ main {
         grid-template-columns: 1fr;
     }
 }
+
+
 

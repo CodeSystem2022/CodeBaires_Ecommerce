@@ -7,7 +7,7 @@
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 325000
+        "precio": 45650
     },
     {
         "id": "disco-02",
@@ -17,7 +17,7 @@
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 124500
+        "precio": 45850
     },
     {
         "id": "disco-03",
@@ -27,17 +27,17 @@
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 105200
+        "precio": 236540
     },
     {
         "id": "disco-04",
-        "titulo": "Disco Sólido SSD M.2 1TB XPG Spectrix S40G",
+        "titulo": "Disco Sólido SSD M.2 1TB XPG Spectrix S40",
         "imagen": "./img/productos/almacenamiento/disco_04.png",
         "categoria": {
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 145100
+        "precio": 68950
     },
     {
         "id": "disco-05",
@@ -47,7 +47,7 @@
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 100000
+        "precio": 16610
     },
     {
         "id": "disco-06",
@@ -57,67 +57,67 @@
             "nombre": "Almacenamiento",
             "id": "almacenamiento"
         },
-        "precio": 100000
+        "precio": 24999
     },
     {
         "id": "fuente-01",
         "titulo": "Fuente Deepcool 700W DA700 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_01.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 51850
     },
     {
         "id": "fuente-02",
         "titulo": "Fuente Be Quiet 850W 80 Plus Gold",
         "imagen": "./img/productos/fuentes/fuente_02.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 86800
     },
     {
         "id": "fuente-03",
-        "titulo": "Fuente Gigabyte 650W 80 Plus Bronze P650B*",
+        "titulo": "Fuente Gigabyte 650W<br>80 Plus Bronze P650B*",
         "imagen": "./img/productos/fuentes/fuente_03.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 57900
     },
     {
         "id": "fuente-04",
         "titulo": "Fuente Aerocool Cylon 700W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_04.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 57100
     },
     {
         "id": "fuente-05",
         "titulo": "Fuente Thermaltake 650W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_05.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 54000
     },
     {
         "id": "fuente-06",
         "titulo": "Fuente ASUS TUF 650W 80 Plus Bronze",
         "imagen": "./img/productos/fuentes/fuente_06.png",
         "categoria": {
-            "nombre": "Fuente",
-            "id": "fuente"
+            "nombre": "Fuentes",
+            "id": "fuentes"
         },
-        "precio": 50000
+        "precio": 62350
     },
     {
         "id": "gabinete-01",
@@ -127,7 +127,7 @@
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 85350
     },
     {
         "id": "gabinete-02",
@@ -137,7 +137,7 @@
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 155800
     },
     {
         "id": "gabinete-03",
@@ -147,7 +147,7 @@
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 106200
     },
     {
         "id": "gabinete-04",
@@ -157,7 +157,7 @@
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 42000
     },
     {
         "id": "gabinete-05",
@@ -167,7 +167,7 @@
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 54200
     },
     {
         "id": "gabinete-06",
@@ -177,7 +177,7 @@
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 76100
     },
     {
         "id": "gabinete-07",
@@ -187,67 +187,67 @@
             "nombre": "Gabinetes",
             "id": "gabinetes"
         },
-        "precio": 8000
+        "precio": 46750
     },
     {
         "id": "ram-01",
         "titulo": "RAM Adata DDR4 16GB 4133MHz XPG Spectrix",
         "imagen": "./img/productos/memorias/ram_01.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 65030
     },
     {
         "id": "ram-02",
         "titulo": "RAM Corsair DDR4 8GB 2666Mhz Vengeance LPX",
         "imagen": "./img/productos/memorias/ram_02.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 24.340
     },
     {
         "id": "ram-03",
         "titulo": "RAM GeiL DDR4 16GB 3000MHz Orion Red",
         "imagen": "./img/productos/memorias/ram_03.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 60.000
     },
     {
         "id": "ram-04",
         "titulo": "RAM Patriot Viper DDR4 8GB 3600MHz Steel",
         "imagen": "./img/productos/memorias/ram_04.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 33100
     },
     {
         "id": "ram-05",
         "titulo": "RAM Kingston DDR4 8GB 3200MHz Fury Beast",
         "imagen": "./img/productos/memorias/ram_05.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 25400
     },
     {
         "id": "ram-06",
         "titulo": "RAM Team DDR4 8GB 3200MHz T-Force Vulcan",
         "imagen": "./img/productos/memorias/ram_06.png",
         "categoria": {
-            "nombre": "Memorias",
-            "id": "memorias"
+            "nombre": "Memorias RAM",
+            "id": "memorias_ram"
         },
-        "precio": 75000
+        "precio": 24899
     },
     {
         "id": "monitor-01",
@@ -257,7 +257,7 @@
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 129999
     },
     {
         "id": "monitor-02",
@@ -267,7 +267,7 @@
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 212650
     },
     {
         "id": "monitor-03",
@@ -277,7 +277,7 @@
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 218700
     },
     {
         "id": "monitor-04",
@@ -287,7 +287,7 @@
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 88900
     },
     {
         "id": "monitor-05",
@@ -297,7 +297,7 @@
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 168650
     },
     {
         "id": "monitor-06",
@@ -307,7 +307,7 @@
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 75000
+        "precio": 274300
     },
     {
         "id": "mother-01",
@@ -317,7 +317,7 @@
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 83600
     },
     {
         "id": "mother-02",
@@ -327,7 +327,7 @@
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 87500
     },
     {
         "id": "mother-03",
@@ -337,7 +337,7 @@
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 87000
     },
     {
         "id": "mother-04",
@@ -347,7 +347,7 @@
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 76910
     },
     {
         "id": "mother-05",
@@ -357,7 +357,7 @@
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 700150
     },
     {
         "id": "mother-06",
@@ -367,7 +367,7 @@
             "nombre": "Mothers",
             "id": "mothers"
         },
-        "precio": 5000
+        "precio": 159000
     },
     {
         "id": "note-01",
@@ -377,7 +377,7 @@
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 805999
     },
     {
         "id": "note-02",
@@ -387,7 +387,7 @@
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 999455
     },
     {
         "id": "note-03",
@@ -397,7 +397,7 @@
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 380995
     },
     {
         "id": "note-04",
@@ -407,7 +407,7 @@
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 789999
     },
     {
         "id": "note-05",
@@ -417,17 +417,17 @@
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 749999
     },
     {
         "id": "note-06",
         "titulo": "Notebook Lenovo Legion 5 15ACH6H 15.6 Ryzen 5 5600H",
         "imagen": "./img/productos/notebooks/note_06.png",
         "categoria": {
-            "nombre": "Notebooks",
+            "nombre": "",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 1135999
     },
     {
         "id": "note-07",
@@ -437,7 +437,7 @@
             "nombre": "Notebooks",
             "id": "notebooks"
         },
-        "precio": 195000
+        "precio": 949.990
     },
     {
         "id": "auri-01",
@@ -447,7 +447,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 10000
+        "precio": 89000
     },
     {
         "id": "auri-02",
@@ -457,7 +457,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 10000
+        "precio": 97990
     },
     {
         "id": "auri-03",
@@ -467,7 +467,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 10000
+        "precio": 21900
     },
     {
         "id": "cam-01",
@@ -477,7 +477,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 11000
+        "precio": 21999
     },
     {
         "id": "cam-02",
@@ -487,7 +487,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 11000
+        "precio": 59000
     },
     {
         "id": "mic-01",
@@ -497,7 +497,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 15000
+        "precio": 90140
     },
     {
         "id": "mic-02",
@@ -507,7 +507,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 15000
+        "precio": 55580
     },
     {
         "id": "mic-03",
@@ -517,17 +517,17 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 15000
+        "precio": 67160
     },
     {
         "id": "mouse-01",
-        "titulo": "Mouse Redragon Gainer M610",
+        "titulo": "Mouse Redragon Gamer M610",
         "imagen": "./img/productos/perifericos/mouse_01.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 8000
+        "precio": 9670
     },
     {
         "id": "mouse-02",
@@ -537,17 +537,17 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 8000
+        "precio": 16100
     },
     {
         "id": "teclado-01",
-        "titulo": "Teclado Mecanico HyperX Alloy Origins RGB ",
+        "titulo": "Teclado Mecanico HyperX Alloy Origins RGB",
         "imagen": "./img/productos/perifericos/teclado_01.png",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 9500
+        "precio": 68280
     },
     {
         "id": "teclado-02",
@@ -557,7 +557,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 9500
+        "precio": 50130
     },
     {
         "id": "teclado-03",
@@ -567,7 +567,7 @@
             "nombre": "Perifericos",
             "id": "perifericos"
         },
-        "precio": 9500
+        "precio": 39999
     },
     {
         "id": "proce-01",
@@ -577,7 +577,7 @@
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 84900
     },
     {
         "id": "proce-02",
@@ -587,27 +587,27 @@
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 123500
     },
     {
         "id": "proce-03",
-        "titulo": "Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4 No incluye Cooler",
+        "titulo": "Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4 (No incluye Cooler)",
         "imagen": "./img/productos/procesadores/proce_03.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 330200
     },
     {
         "id": "proce-04",
-        "titulo": "Procesador Intel Core i3 10100F 4.3GHz Turbo Socket 1200 Comet Lake ",
+        "titulo": "Procesador Intel Core i3 10100F 4.3GHz Turbo Socket 1200 Comet Lake",
         "imagen": "./img/productos/procesadores/proce_04.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 61950
     },
     {
         "id": "proce-05",
@@ -617,80 +617,77 @@
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 146500
     },
     {
         "id": "proce-06",
-        "titulo": "Procesador Intel Core i7 11700KF 5.0GHz Turbo Socket 1200 Rocket Lake ",
+        "titulo": "Procesador Intel Core i7 11700KF 5.0GHz Turbo Socket 1200 Rocket Lake",
         "imagen": "./img/productos/procesadores/proce_06.png",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
         },
-        "precio": 25000
+        "precio": 325300
     },
     {
         "id": "video-01",
-        "titulo": "Placa ASUS Phoenix  GeForce GTX 1630",
+        "titulo": "Placa ASUS Phoenix GeForce GTX 1630",
         "imagen": "./img/productos/video/video_01.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 212450
     },
     {
         "id": "video-02",
         "titulo": "Placa ASUS GeForce GTX 1660 SUPER TUF",
         "imagen": "./img/productos/video/video_02.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 335550
     },
     {
         "id": "video-03",
         "titulo": "Placa ASUS GeForce RTX 3070 ROG STRIX",
         "imagen": "./img/productos/video/video_03.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 500400
     },
     {
         "id": "video-04",
         "titulo": "Placa Asrock Radeon RX 6500 PHANTOM",
         "imagen": "./img/productos/video/video_04.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 228650
     },
     {
         "id": "video-05",
         "titulo": "Placa XFX Radeon RX 6650 SPEEDSTER QICK",
         "imagen": "./img/productos/video/video_05.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 326900
     },
     {
         "id": "video-06",
         "titulo": "Placa XFX Radeon RX 6650 SPEEDSTER MERC",
         "imagen": "./img/productos/video/video_06.png",
         "categoria": {
-            "nombre": "Videos",
-            "id": "videos"
+            "nombre": "Placas de video",
+            "id": "placas_video"
         },
-        "precio": 25000
+        "precio": 354500
     }
-
-
-
 
 ]

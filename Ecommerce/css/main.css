@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-    --clr-main: #140264;
+    --clr-main: #0a0131;
     --clr-main-light: #220c83;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
@@ -33,7 +33,7 @@ a {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: var(--clr-LightSlateGray);
+    background-color: var(--clr-main);
 }
 
 aside {
@@ -116,18 +116,18 @@ aside {
 
 .numerito {
     background-color: var(--clr-white);
-    color: var(--clr-main);
+    color: var(--clr-main-light);
     padding: .15rem .25rem;
     border-radius: .25rem;
 }
 
 .boton-carrito.active .numerito {
-    background-color: var(--clr-main);
+    background-color: var(--clr-LightSlateGray);
     color: var(--clr-white);
 }
 
 .texto-footer {
-    color: var(--clr-main-light);
+    color: var(--clr-LightSlateGray);
     font-size: .85rem;
 }
 
@@ -140,7 +140,7 @@ main {
 }
 
 .titulo-principal {
-    color: var(--clr-main);
+    color: var(--clr-main-light);
     margin-bottom: 2rem;
 }
 
@@ -157,7 +157,7 @@ main {
 
 .producto-detalles {
 
-    background-color: var(--clr-LightSlateGray);
+    background-color: var(--clr-main);
     color: var(--clr-white);
     padding: .5rem;
     border-radius: 1rem;
@@ -187,7 +187,7 @@ main {
 }
 
 .producto-agregar:hover {
-    background-color: var(--clr-main);
+    background-color: var(--clr-LightSlateGray);
     color: var(--clr-white);
 }
 
@@ -201,7 +201,7 @@ main {
 
 .carrito-vacio,
 .carrito-comprado {
-    color: var(--clr-main);
+    color: var(--clr-LightSlateGray);
 }
 
 .carrito-productos {
@@ -247,7 +247,7 @@ main {
     background-color: var(--clr-gray);
     padding: 1rem;
     border-radius: 1rem;
-    color: var(--clr-main);
+    color: var(--clr-LightSlateGray);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -260,7 +260,7 @@ main {
     display: flex;
     background-color: var(--clr-gray);
     padding: 1rem;
-    color: var(--clr-main);
+    color: var(--clr-LightSlateGray);
     text-transform: uppercase;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -269,7 +269,7 @@ main {
 
 .carrito-acciones-comprar {
     border: 0;
-    background-color: var(--clr-main);
+    background-color: var(--clr-LightSlateGray);
     padding: 1rem;
     color: var(--clr-white);
     text-transform: uppercase;
@@ -390,8 +390,6 @@ main {
         row-gap: 1rem;
     }
 }
-
-
 
 @media screen and (max-width: 400px) {
     .contenedor-productos {

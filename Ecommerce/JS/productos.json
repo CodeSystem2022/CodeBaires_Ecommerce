@@ -91,13 +91,13 @@
     },
     {
         "id": "fuente-04",
-        "titulo": "Fuente Aerocool Cylon 700W 80 Plus Bronze",
+        "titulo": "Fuente ASUS ROG STRIX 1000W 80 Plus Gold",
         "imagen": "./img/productos/fuentes/fuente_04.png",
         "categoria": {
             "nombre": "Fuentes",
             "id": "fuentes"
         },
-        "precio": 57100
+        "precio": 139800
     },
     {
         "id": "fuente-05",

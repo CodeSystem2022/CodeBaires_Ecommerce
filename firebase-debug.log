@@ -1,0 +1,21 @@
+[debug] [2023-10-05T01:13:17.822Z] ----------------------------------------------------------------------
+[debug] [2023-10-05T01:13:17.825Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-05T01:13:17.825Z] CLI Version:   12.6.2
+[debug] [2023-10-05T01:13:17.825Z] Platform:      win32
+[debug] [2023-10-05T01:13:17.826Z] Node Version:  v18.17.1
+[debug] [2023-10-05T01:13:17.827Z] Time:          Wed Oct 04 2023 22:13:17 GMT-0300 (hora estándar de Argentina)
+[debug] [2023-10-05T01:13:17.827Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-05T01:13:17.837Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-05T01:13:17.837Z] > authorizing via signed-in user (lotierzorosalia@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\PC\CodeBaires_Ecommerce
+

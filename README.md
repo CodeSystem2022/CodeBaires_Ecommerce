@@ -9,10 +9,10 @@ Proyecto Final de TUP FRSR - CodeBaires
 
 # Roles en el equipo
 
-| ROL  | INTEGRANTE |  
+| ROL  | INTEGRANTE | 
 | ------------- | ------------- | 
-| :computer: Scrum Master - Dev  | Rosalia Lotierzo | 
-| :computer: QA - Dev  | Yamila Carlucci | 
+| :computer: Scrum Master - Dev  | Rosalia Lotierzo |
+| :computer: QA - Dev  | Yamila Carlucci |
 | :computer: Dev  | Emmanuel Toro |
 | :computer: Dev  | Marina Falcón |
 | :computer: Dev  | Maia Strusiat |

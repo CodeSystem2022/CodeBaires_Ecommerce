@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
 app.get("/", function () {
-    path.resolve("index.html");
+    path.resolve("carrito.html");
 });
 
 app.post("/create_preference", (req, res) => {

@@ -217,7 +217,7 @@ main {
 .carrito-productos {
     display: flex;
     flex-direction: column;
-    /* gap: 1rem; */
+    gap: 1rem;
 }
 
 .carrito-producto {
@@ -234,6 +234,7 @@ main {
 .item-carrito-row {
     display: flex;
     flex-direction: row;
+    gap: 1rem;
 }
 
 .carrito-producto-imagen { 

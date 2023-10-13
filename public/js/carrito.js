@@ -92,16 +92,17 @@ function eliminarDelCarrito(e) {
  
     const idBoton = e.currentTarget.id;
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
-
+    
     productosEnCarrito.splice(index, 1);
     cargarProductosCarrito();
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+
 }
 
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
-    //Usamos librerira SweetAlert2 la llamamos Swal
+    //Usamos libreria SweetAlert2 la llamamos Swal
     Swal.fire({
         title: '¿Estás seguro?',
         icon: 'question',

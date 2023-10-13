@@ -106,8 +106,9 @@ function vaciarCarrito() {
     //Usamos libreria SweetAlert2 la llamamos Swal
     Swal.fire({
         title: '¿Estás seguro?',
+        width: 300,
         icon: 'question',
-        html: `Se van a borrar ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} productos.`,
+        html: `Se van a borrar <br> ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} productos.`,
         showCancelButton: true,
         focusConfirm: false,
         confirmButtonText: 'Sí',

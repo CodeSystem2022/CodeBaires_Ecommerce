@@ -101,10 +101,6 @@ function eliminarDelCarrito(e) {
 
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
-    productosEnCarrito.length = 0;
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-    cargarProductosCarrito();
-    
     //Usamos librerira SweetAlert2 la llamamos Swal
     Swal.fire({
         title: '¿Estás seguro?',
@@ -120,8 +116,7 @@ function vaciarCarrito() {
             localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
             cargarProductosCarrito();
         }
-      })
-
+    })
 }
 
 function actualizarTotal() {

@@ -83,6 +83,26 @@ if (productosEnCarritoLS) {
 
 
 function agregarAlCarrito(e) {
+
+    Toastify({
+        text: "Producto agregado",
+        duration: 3000,
+        close: true,
+        gravity: "top",
+        position: "right",
+        stopOnFocus: true,
+        style: {
+          background: "linear-gradient(to right, #0a0131, #220c83)",
+          borderRadius: "2rem",
+          fontSize: "0.75rem",
+        },
+        offset: {
+            x: "1.5rem",
+            y: "1.5rem"
+        },
+        onClick: function(){}
+    }).showToast();
+
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
 

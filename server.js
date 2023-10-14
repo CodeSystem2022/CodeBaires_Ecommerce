@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 const mercadopago = require("mercadopago");
 const path = require("path");
+require('dotenv').config()
 
 mercadopago.configure({
 	access_token: "TEST-2559386050472488-091712-1d0b77b2997029e6d625b24bd8d90198-78655666",
@@ -31,8 +32,8 @@ app.post("/create_preference", (req, res) => {
 			}
 		],
 		back_urls: {
-			"success": "http://localhost:3030", // process.env.BASE_URL
-			"failure": "http://localhost:3030", // process.env.BASE_URL
+			"success": process.env.BASE_URL,
+			"failure": process.env.BASE_URL,
 			"pending": ""
 		},
 		auto_return: "approved",

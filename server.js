@@ -31,8 +31,8 @@ app.post("/create_preference", (req, res) => {
 			}
 		],
 		back_urls: {
-			"success": "http://localhost:8080", // process.env.BASE_URL
-			"failure": "http://localhost:8080", // process.env.BASE_URL
+			"success": "http://localhost:3030", // process.env.BASE_URL
+			"failure": "http://localhost:3030", // process.env.BASE_URL
 			"pending": ""
 		},
 		auto_return: "approved",
@@ -58,6 +58,6 @@ app.get('/feedback', function (req, res) {
 	});
 });
 
-app.listen(8080, () => {
-	console.log("The server is now running on Port 8080");
+app.listen(3030, () => {
+	console.log("The server is now running on Port 3030");
 });

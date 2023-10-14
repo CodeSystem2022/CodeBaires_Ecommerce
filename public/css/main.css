@@ -54,7 +54,8 @@ aside {
 }
 
 nav {
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     padding-top: 1rem;
 }
 
@@ -228,7 +229,10 @@ main {
     color: var(--clr-main);
     padding: .5rem;
     padding-right: 2rem;
-    border-radius: 3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .item-carrito-row {
@@ -263,10 +267,15 @@ main {
     border: 0;
     background-color: var(--clr-gray);
     padding: 1rem;
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     color: var(--clr-LightSlateGray);
     text-transform: uppercase;
     cursor: pointer;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .carrito-acciones-derecha {
@@ -277,10 +286,14 @@ main {
     display: flex;
     background-color: var(--clr-gray);
     padding: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     color: var(--clr-LightSlateGray);
     text-transform: uppercase;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     gap: 1rem;
 }
 
@@ -291,8 +304,12 @@ main {
     color: var(--clr-white);
     text-transform: uppercase;
     cursor: pointer;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .header-mobile {

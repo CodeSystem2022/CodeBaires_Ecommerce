@@ -137,8 +137,8 @@ const mercadopago = new MercadoPago ("TEST-568e2a49-e9fd-4243-901b-06f5f59f2f95"
 botonComprar.addEventListener("click",function () {
     const orderData = {
         quantity: 1,
-        description: "Compra de ecommerce",
-        price: 1000,
+        description: "Compra CodeBaires Techno Store",
+        price: productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0),
     };
 
     fetch("http://localhost:8080/create_preference",{
@@ -158,9 +158,6 @@ botonComprar.addEventListener("click",function () {
             alert("Unexpected error");
         });
     
-    productosEnCarrito.length = 0;
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-        
     });
 
 function createCheckoutButton(preferenceId) {

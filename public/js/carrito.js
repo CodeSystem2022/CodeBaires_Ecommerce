@@ -25,24 +25,26 @@ function cargarProductosCarrito() {
             const div = document.createElement("div");
             div.classList.add("carrito-producto");
             div.innerHTML = `
-                <img class="carrito-producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-                <div class="carrito-producto-titulo">
-                    <small>Título</small>
+                <img class="item-carrito carrito-producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+                <div class="item-carrito carrito-producto-titulo">
+                    <small>Producto</small>
                     <h3>${producto.titulo}</h3>
                 </div>
-                <div class="carrito-producto-cantidad">
-                    <small>Cantidad</small>
-                    <p>${producto.cantidad}</p>
+                <div class="item-carrito-row">
+                    <div class="item-carrito carrito-producto-cantidad">
+                        <small>Cantidad</small>
+                        <p>${producto.cantidad}</p>
+                    </div>
+                    <div class="item-carrito carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>$${producto.precio}</p>
+                    </div>
+                    <div class="item-carrito carrito-producto-subtotal">
+                        <small>Subtotal</small>
+                        <p>$${producto.precio * producto.cantidad}</p>
+                    </div>
+                    <button class="item-carrito carrito-producto-eliminar" id="${producto.id}"><i class="bi bi-trash-fill"></i></button>
                 </div>
-                <div class="carrito-producto-precio">
-                    <small>Precio</small>
-                    <p>$${producto.precio}</p>
-                </div>
-                <div class="carrito-producto-subtotal">
-                    <small>Subtotal</small>
-                    <p>$${producto.precio * producto.cantidad}</p>
-                </div>
-                <button class="carrito-producto-eliminar" id="${producto.id}"><i class="bi bi-trash-fill"></i></button>
             `;
     
             contenedorCarritoProductos.append(div);
@@ -75,42 +77,38 @@ function eliminarDelCarrito(e) {
         text: "Producto eliminado",
         duration: 3000,
         close: true,
-        gravity: "top", // `top` or `bottom`
-        position: "right", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
+        gravity: "top",
+        position: "right",
+        stopOnFocus: true,
         style: {
-          background: "linear-gradient(to right, #4b33a8, #785ce9)",
+          background: "linear-gradient(to right, #0a0131, #220c83)",
           borderRadius: "2rem",
-          textTransform: "uppercase",
-          fontSize: ".75rem"
+          fontSize: "0.75rem",
         },
         offset: {
-            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
-            y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
-          },
-        onClick: function(){} // Callback after click
-      }).showToast();
- 
+            x: "1.5rem",
+            y: "1.5rem"
+        },
+        onClick: function(){}
+    }).showToast();
     const idBoton = e.currentTarget.id;
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
-
+    
     productosEnCarrito.splice(index, 1);
     cargarProductosCarrito();
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+
 }
 
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
-    productosEnCarrito.length = 0;
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-    cargarProductosCarrito();
-    
-    //Usamos librerira SweetAlert2 la llamamos Swal
+    //Usamos libreria SweetAlert2 la llamamos Swal
     Swal.fire({
         title: '¿Estás seguro?',
+        width: 300,
         icon: 'question',
-        html: `Se van a borrar ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} productos.`,
+        html: `Se van a borrar <br> ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} productos.`,
         showCancelButton: true,
         focusConfirm: false,
         confirmButtonText: 'Sí',
@@ -121,8 +119,7 @@ function vaciarCarrito() {
             localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
             cargarProductosCarrito();
         }
-      })
-
+    })
 }
 
 function actualizarTotal() {
@@ -130,13 +127,57 @@ function actualizarTotal() {
     contenedorTotal.innerText = `$${totalCalculado}`;
 }
 
-botonComprar.addEventListener("click", comprarCarrito);
-function comprarCarrito() {
-    productosEnCarrito.length = 0;
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+//mp
+const mercadopago = new MercadoPago ("TEST-568e2a49-e9fd-4243-901b-06f5f59f2f95", {
+    locale: "es-AR", //Los mas comunes son: 'pt-BR','es-AR','en-US'
+});
+
+//botonComprar.addEventListener("click", comprarCarrito);
+
+botonComprar.addEventListener("click",function () {
+    const orderData = {
+        quantity: 1,
+        description: "Compra CodeBaires Techno Store",
+        price: productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0),
+    };
+
+    fetch("http://localhost:8080/create_preference",{
+        method: "POST",
+        headers: {
+            "Content-Type":"application/json",
+        },
+        body: JSON.stringify(orderData),
+    })
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (preference) {
+            createCheckoutButton(preference.id);
+        })
+        .catch(function() {
+            alert("Unexpected error");
+        });
     
-    contenedorCarritoVacio.classList.add("disabled");
-    contenedorCarritoProductos.classList.add("disabled");
-    contenedorCarritoAcciones.classList.add("disabled");
-    contenedorCarritoComprado.classList.remove("disabled");
+    });
+
+function createCheckoutButton(preferenceId) {
+    // Initialize the checkout
+    const bricksBuilder = mercadopago.bricks();
+      
+    const renderComponent = async (bricksBuilder) => {
+        await bricksBuilder.create(
+            "wallet",
+            "carrito-acciones-comprar", // class/id where the payment button will be displayed
+            {
+                initialization: {
+                    preferenceId: preferenceId,
+                },
+                callbacks: {
+                    onError: (error) => console.error(error),
+                    onReady: () => {},
+                },
+            }
+            );
+    };
+    window.botonComprar = renderComponent(bricksBuilder);
 }

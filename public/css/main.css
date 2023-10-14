@@ -32,7 +32,7 @@ a {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     background-color: var(--clr-main);
 }
 
@@ -42,7 +42,7 @@ aside {
     color: var(--clr-white);
     position: sticky;
     top: 0;
-    height: 150vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,9 +53,15 @@ aside {
     font-size: 1.3rem;
 }
 
+nav {
+    overflow: scroll;
+    padding-top: 1rem;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     gap: .5rem;
 }
 
@@ -141,7 +147,7 @@ main {
 
 .titulo-principal {
     color: var(--clr-main-light);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .contenedor-productos {
@@ -192,6 +198,10 @@ main {
 }
 
 /** CARRITO **/
+.item-carrito{
+    /* padding-left: 1rem; */
+    text-align: center;
+}
 
 .contenedor-carrito {
     display: flex;
@@ -217,13 +227,20 @@ main {
     background-color: var(--clr-gray);
     color: var(--clr-main);
     padding: .5rem;
-    padding-right: 1.5rem;
-    border-radius: 1rem;
+    padding-right: 2rem;
+    border-radius: 3rem;
 }
 
-.carrito-producto-imagen {
+.item-carrito-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.carrito-producto-imagen { 
+    align-self: center;
     width: 4rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 
 .carrito-producto small {
@@ -290,15 +307,9 @@ main {
     display: none;
 }
 
-/*** MEDIA QUERIES ***/ Desktop first (de mayor a menor tamaño de pantalla)
+/*** MEDIA QUERIES ***/ 
 
 @media screen and (max-width: 850px) {
-    .contenedor-productos {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 675px) {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr;
     }
@@ -310,6 +321,7 @@ main {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
 
     aside {
@@ -374,8 +386,14 @@ main {
     .carrito-producto {
         gap: 1rem;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         padding: .5rem;
+    }
+
+    .item-carrito-row {
+        margin-left: auto;
+        margin-right: 1rem;
+        gap: 1rem;
     }
 
     .carrito-producto-subtotal {

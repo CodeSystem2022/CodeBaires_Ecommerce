@@ -132,63 +132,55 @@ const mercadopago = new MercadoPago ("TEST-568e2a49-e9fd-4243-901b-06f5f59f2f95"
     locale: "es-AR", //Los mas comunes son: 'pt-BR','es-AR','en-US'
 });
 
-botonComprar.addEventListener("click", comprarCarrito);
+//botonComprar.addEventListener("click", comprarCarrito);
 
-function comprarCarrito() {
+botonComprar.addEventListener("click",function () {
     const orderData = {
         quantity: 1,
-        description: "Compra en CodeBaires Techno Store",
+        description: "Compra de ecommerce",
         price: 1000,
     };
 
     fetch("http://localhost:8080/create_preference",{
-            method: "POST",
-            headers: {
-                "Content-Type":"application/json",
-            },
-            body: JSON.stringify(orderData),
+        method: "POST",
+        headers: {
+            "Content-Type":"application/json",
+        },
+        body: JSON.stringify(orderData),
+    })
+        .then(function (response) {
+            return response.json();
         })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (preference) {
-                createCheckoutButton(preference.id);
-            })
-            .catch(function() {
-                alert("Unexpected error");
-            });
-
+        .then(function (preference) {
+            createCheckoutButton(preference.id);
+        })
+        .catch(function() {
+            alert("Unexpected error");
+        });
+    
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-    
-    contenedorCarritoVacio.classList.add("disabled");
-    contenedorCarritoProductos.classList.add("disabled");
-    contenedorCarritoAcciones.classList.add("disabled");
-    contenedorCarritoComprado.classList.remove("disabled");
-    
+        
+    });
 
-}
-
-function createCheckoutButton(preferenceId){
-    //Initialize the checkout
+function createCheckoutButton(preferenceId) {
+    // Initialize the checkout
     const bricksBuilder = mercadopago.bricks();
-
-    const renderComponent = async(bricksBuilder) => {
-    //if (window.checkoutButton) checkoutButton.unmount();
-
+      
+    const renderComponent = async (bricksBuilder) => {
         await bricksBuilder.create(
             "wallet",
-            "button-checkout", //class/id where  the payment button will be displayed
+            "carrito-acciones-comprar", // class/id where the payment button will be displayed
             {
                 initialization: {
                     preferenceId: preferenceId,
                 },
-                callbacks:{
+                callbacks: {
                     onError: (error) => console.error(error),
                     onReady: () => {},
                 },
             }
-        );
+            );
     };
-    window.checkoutButton = renderComponent(bricksBuilder);
+    window.botonComprar = renderComponent(bricksBuilder);
 }

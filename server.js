@@ -16,8 +16,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
 app.get("/", function () {
-    path.resolve("carrito.html");
+    path.resolve(__dirname, "..", "public"), "carrito.html";
 });
+
 
 app.post("/create_preference", (req, res) => {
 
@@ -30,8 +31,8 @@ app.post("/create_preference", (req, res) => {
 			}
 		],
 		back_urls: {
-			"success": process.env.BASE_URL,
-			"failure": process.env.BASE_URL,
+			"success": "http://localhost:8080",
+			"failure": "http://localhost:8080",
 			"pending": ""
 		},
 		auto_return: "approved",

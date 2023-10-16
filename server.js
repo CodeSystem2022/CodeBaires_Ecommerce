@@ -10,6 +10,7 @@ mercadopago.configure({
 	access_token: "TEST-2559386050472488-091712-1d0b77b2997029e6d625b24bd8d90198-78655666",
 });
 
+const router = express.Router();
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
@@ -17,16 +18,18 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
+
 app.get("/", function () {
     path.resolve(__dirname, "..", "public"), "carrito.html";
 });
 
-app.get("/products",  function(_req, res) {
-	//getProducts().then((products) =>
-	//res.json(products)
-	console.log("srasa")
-	res.json({})
+router.get("/products",  function(_req, res) {
+	getProducts().then((products) =>
+		res.json(products)
+	)
 });
+
+app.use("/api", router)
 
 app.post("/create_preference", (req, res) => {
 

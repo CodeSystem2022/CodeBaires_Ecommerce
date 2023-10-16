@@ -1,7 +1,7 @@
 let productos = []
 
 const obtenerProductos = () => {
-    fetch("/products").then(response => response.json().then(productos => cargarProductos(productos)))
+    fetch("/api/products").then(response => response.json().then(productos => cargarProductos(productos)))
 }
 
 obtenerProductos();

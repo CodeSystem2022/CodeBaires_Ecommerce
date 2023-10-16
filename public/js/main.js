@@ -1,7 +1,7 @@
 let productos = []
 
 const obtenerProductos = async () => {
-    const response = await fetch("/products");
+    const response = await fetch("/api/products");
     productos = await response.json();
     cargarProductos(productos);
 }

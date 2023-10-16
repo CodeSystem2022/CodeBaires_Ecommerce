@@ -21,7 +21,7 @@ app.get("/", function () {
     path.resolve(__dirname, "..", "public"), "carrito.html";
 });
 
-app.get("/api/products", async function (_req, res) {
+app.post("/api/products", async function (_req, res) {
 	const products = await getProducts();
 	res.json(products);
 });

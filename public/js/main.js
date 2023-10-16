@@ -1,7 +1,12 @@
 let productos = []
 
 const obtenerProductos = async () => {
-    const response = await fetch("/api/products");
+    const response = await fetch("/api/products",{
+        method: "POST",
+        headers: {
+            "Content-Type":"application/json",
+        },
+    });
     productos = await response.json();
     cargarProductos(productos);
 }

@@ -141,6 +141,7 @@ botonComprar.addEventListener("click",function () {
 
     fetch("/api/create_preference",{
         method: "POST",
+        headers:{"Content-Type": "application/json"},
         body: JSON.stringify(orderData),
     })
         .then(function (response) {

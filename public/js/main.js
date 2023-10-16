@@ -1,12 +1,12 @@
-let productos = [];
+let productos = []
 
-fetch("./js/productos.json")
-    .then(response => response.json())
-    .then(data => {
-        productos = data;
-        cargarProductos(productos);
-    })
+const obtenerProductos = async () => {
+    const response = await fetch("/products");
+    productos = await response.json();
+    cargarProductos(productos);
+}
 
+obtenerProductos();
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");

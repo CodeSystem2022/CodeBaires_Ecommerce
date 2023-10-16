@@ -129,10 +129,8 @@ function actualizarTotal() {
 
 //mp
 const mercadopago = new MercadoPago ("TEST-568e2a49-e9fd-4243-901b-06f5f59f2f95", {
-    locale: "es-AR", //Los mas comunes son: 'pt-BR','es-AR','en-US'
+    locale: "es-AR", 
 });
-
-//botonComprar.addEventListener("click", comprarCarrito);
 
 botonComprar.addEventListener("click",function () {
     const orderData = {
@@ -141,7 +139,7 @@ botonComprar.addEventListener("click",function () {
         price: productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0),
     };
 
-    fetch("http://localhost:3030/create_preference",{
+    fetch("/create_preference",{
         method: "POST",
         headers: {
             "Content-Type":"application/json",
@@ -157,13 +155,12 @@ botonComprar.addEventListener("click",function () {
         .catch(function() {
             alert("Unexpected error");
         });
-    
     });
 
 function createCheckoutButton(preferenceId) {
     // Initialize the checkout
     const bricksBuilder = mercadopago.bricks();
-      
+
     const renderComponent = async (bricksBuilder) => {
         await bricksBuilder.create(
             "wallet",

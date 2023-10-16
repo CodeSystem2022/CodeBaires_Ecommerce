@@ -1,9 +1,10 @@
+require('dotenv').config()
 const express = require("express");
 const app = express();
 const cors = require("cors");
 const mercadopago = require("mercadopago");
 const path = require("path");
-require('dotenv').config()
+const { getProducts } = require("./src/services/productService");
 
 mercadopago.configure({
 	access_token: "TEST-2559386050472488-091712-1d0b77b2997029e6d625b24bd8d90198-78655666",
@@ -20,6 +21,10 @@ app.get("/", function () {
     path.resolve(__dirname, "..", "public"), "carrito.html";
 });
 
+app.get("/products", async function (_req, res) {
+	const products = await getProducts();
+	res.json(products);
+});
 
 app.post("/create_preference", (req, res) => {
 

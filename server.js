@@ -24,6 +24,7 @@ app.get("/", function () {
 app.get("/products",  function(_req, res) {
 	//getProducts().then((products) =>
 	//res.json(products)
+	console.log("srasa")
 	res.json({})
 });
 

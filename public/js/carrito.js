@@ -139,11 +139,8 @@ botonComprar.addEventListener("click",function () {
         price: productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0),
     };
 
-    fetch("/create_preference",{
+    fetch("/api/create_preference",{
         method: "POST",
-        headers: {
-            "Content-Type":"application/json",
-        },
         body: JSON.stringify(orderData),
     })
         .then(function (response) {

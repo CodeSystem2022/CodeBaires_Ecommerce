@@ -1,7 +1,9 @@
 let productos = []
 
-const obtenerProductos = () => {
-    fetch("/api/products").then(response => response.json().then(productos => cargarProductos(productos)))
+const obtenerProductos = async () => {
+    const response = await fetch("/api/products");
+    productos = await response.json();
+    cargarProductos(productos);
 }
 
 obtenerProductos();

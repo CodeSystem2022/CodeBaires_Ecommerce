@@ -22,9 +22,9 @@ app.get("/", function () {
 });
 
 app.get("/products",  function(_req, res) {
-	getProducts().then((products) =>
-	res.json(products)
-	)
+	//getProducts().then((products) =>
+	//res.json(products)
+	res.json({})
 });
 
 app.post("/create_preference", (req, res) => {

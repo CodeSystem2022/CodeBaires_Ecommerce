@@ -21,9 +21,10 @@ app.get("/", function () {
     path.resolve(__dirname, "..", "public"), "carrito.html";
 });
 
-app.post("/api/products", async function (_req, res) {
-	const products = await getProducts();
-	res.json(products);
+app.get("/products",  function(_req, res) {
+	getProducts().then((products) =>
+	res.json(products)
+	)
 });
 
 app.post("/create_preference", (req, res) => {

@@ -6,7 +6,7 @@ Proyecto Final de TUP FRSR - CodeBaires
 
 ![image](https://user-images.githubusercontent.com/77170481/235795845-49895c13-c373-49ed-8a60-b71fafe951cf.png)
 
-<h3>Tecnologías utilizadas:</h3>
+<h3>Stack utilizado:</h3>
 
 <p align="center">
   <a href="https://skillicons.dev">

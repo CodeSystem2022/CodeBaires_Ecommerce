@@ -6,6 +6,13 @@ Proyecto Final de TUP FRSR - CodeBaires
 
 ![image](https://user-images.githubusercontent.com/77170481/235795845-49895c13-c373-49ed-8a60-b71fafe951cf.png)
 
+<h3>Tecnologías utilizadas:</h3>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,html,css,nodejs,express,mongodb,vercel" />
+  </a>
+</p>
 
 # Roles en el equipo
 

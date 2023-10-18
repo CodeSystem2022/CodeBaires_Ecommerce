@@ -19,7 +19,6 @@ app.get("/api/products", async function (_req, res) {
 });
 
 app.post("/api/create_preference", (req, res) => {
-  //const { description, price, quantity } = JSON.parse(req.body);
   const { description, price, quantity } = req.body;
 
   let preference = {

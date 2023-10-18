@@ -103,7 +103,6 @@ function eliminarDelCarrito(e) {
 
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
-    //Usamos libreria SweetAlert2 la llamamos Swal
     Swal.fire({
         title: '¿Estás seguro?',
         width: 300,
@@ -127,9 +126,9 @@ function actualizarTotal() {
     contenedorTotal.innerText = `$${totalCalculado}`;
 }
 
-//mp
+//Integracion con mercadopago
 const mercadopago = new MercadoPago ("TEST-568e2a49-e9fd-4243-901b-06f5f59f2f95", {
-    locale: "es-AR", 
+    locale: "es-AR",
 });
 
 botonComprar.addEventListener("click",function () {
@@ -156,7 +155,6 @@ botonComprar.addEventListener("click",function () {
     });
 
 function createCheckoutButton(preferenceId) {
-    // Initialize the checkout
     const bricksBuilder = mercadopago.bricks();
 
     const renderComponent = async (bricksBuilder) => {

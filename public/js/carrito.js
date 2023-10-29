@@ -127,7 +127,7 @@ function actualizarTotal() {
 }
 
 //Integracion con mercadopago
-const mercadopago = new MercadoPago ("TEST-568e2a49-e9fd-4243-901b-06f5f59f2f95", {
+const mercadopago = new MercadoPago ("APP_USR-fcc75e1e-6bfc-4e5d-9230-d5f633038515", {
     locale: "es-AR",
 });
 

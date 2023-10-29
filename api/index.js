@@ -6,7 +6,7 @@ const mercadopago = require("mercadopago");
 const { getProducts } = require("./src/services/productService");
 
 mercadopago.configure({
-  access_token: "APP_USR-2559386050472488-091712-ffee130f29a87105a5c4a92b9a028789-78655666",
+  access_token: "TEST-2627316415575972-102917-e7ac04afc3bdf85596ef7b50429b9f50-1513494519",
 });
 
 app.use(express.urlencoded({ extended: false }));

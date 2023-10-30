@@ -158,6 +158,8 @@ function createCheckoutButton(preferenceId) {
     const bricksBuilder = mercadopago.bricks();
 
     const renderComponent = async (bricksBuilder) => {
+        if (window.botonComprar) window.botonComprar.unmount();
+
         await bricksBuilder.create(
             "wallet",
             "carrito-acciones-comprar", // class/id where the payment button will be displayed
@@ -173,4 +175,5 @@ function createCheckoutButton(preferenceId) {
             );
     };
     window.botonComprar = renderComponent(bricksBuilder);
+    
 }

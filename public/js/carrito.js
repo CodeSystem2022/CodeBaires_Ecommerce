@@ -175,5 +175,7 @@ function createCheckoutButton(preferenceId) {
             );
     };
     window.botonComprar = renderComponent(bricksBuilder);
+    productosEnCarrito.length = 0;
+    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
     
 }

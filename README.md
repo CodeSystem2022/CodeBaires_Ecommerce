@@ -1,8 +1,7 @@
 
-# CodeBaires_ProyectoFinal_Ecommerce
-Proyecto Final de TUP FRSR - CodeBaires
+# Ecommerce Proyecto Final de TUP FRSR
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2A081B&width=435&lines=CodeBairesTechnoStore)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2A081B&width=1000&lines=CodeBairesTechnoStore)](https://git.io/typing-svg)
 
 ![image](https://user-images.githubusercontent.com/77170481/235795845-49895c13-c373-49ed-8a60-b71fafe951cf.png)
 
@@ -17,7 +16,10 @@ Proyecto Final de TUP FRSR - CodeBaires
 <h3>URL productiva:</h3>
 https://code-baires-techno-store.vercel.app/
 
+<h3>Nuestra wiki:</h3>
+https://github.com/CodeSystem2022/CodeBaires_Ecommerce/wiki
 <h3>Roles en el equipo:</h3>
+
 
 | ROL  | INTEGRANTE |
 | ------------- | ------------- |
